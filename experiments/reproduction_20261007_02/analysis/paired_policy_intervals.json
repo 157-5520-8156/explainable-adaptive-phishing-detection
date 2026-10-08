@@ -1,0 +1,13 @@
+{
+  "comparison": "periodic minus fixed; path_profile delay2 seed42",
+  "domain_bootstrap_replicates": 1000,
+  "delta_fpr_95": [
+    -0.02143739290855211,
+    0.0006133856151780847
+  ],
+  "delta_recall_95": [
+    -0.042187240485418005,
+    -0.004674228214306192
+  ],
+  "conditional_on_fitted_models": true
+}

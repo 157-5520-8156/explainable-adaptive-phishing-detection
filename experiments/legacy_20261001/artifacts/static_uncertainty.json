@@ -1,0 +1,21 @@
+{
+  "method": "200 domain-group bootstrap replicates; conditional on fixed split, primary RF seed; not temporal validation",
+  "intervals": {
+    "f1": {
+      "lower": 0.9949497587926585,
+      "upper": 0.9974775185213152
+    },
+    "average_precision": {
+      "lower": 0.9976760153693908,
+      "upper": 0.9991680784544903
+    },
+    "recall": {
+      "lower": 0.9902450848277442,
+      "upper": 0.9950816845794642
+    },
+    "false_positive_rate": {
+      "lower": 0.0,
+      "upper": 0.0002967213293762852
+    }
+  }
+}

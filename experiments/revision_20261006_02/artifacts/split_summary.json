@@ -1,0 +1,29 @@
+{
+  "seed": 20261001,
+  "method": "StratifiedGroupKFold 5 folds; test fold 0, validation fold 1, train folds 2-4",
+  "group_overlaps": {
+    "train_test": 0,
+    "train_validation": 0,
+    "validation_test": 0
+  },
+  "partitions": {
+    "train": {
+      "n": 141090,
+      "groups": 118631,
+      "phishing": 60180,
+      "phishing_fraction": 0.4265362534552413
+    },
+    "validation": {
+      "n": 47031,
+      "groups": 39544,
+      "phishing": 20061,
+      "phishing_fraction": 0.42654844676915227
+    },
+    "test": {
+      "n": 47031,
+      "groups": 39534,
+      "phishing": 20061,
+      "phishing_fraction": 0.42654844676915227
+    }
+  }
+}

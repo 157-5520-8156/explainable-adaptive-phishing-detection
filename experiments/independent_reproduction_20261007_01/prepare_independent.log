@@ -1,0 +1,72 @@
+SOURCE DOM dataset_A_05_2020_p1.pickle 100 eligible extraction 100 errors 0
+SOURCE DOM dataset_A_05_2020_p10.pickle 100 eligible extraction 100 errors 0
+SOURCE DOM dataset_A_05_2020_p2.pickle 100 eligible extraction 96 errors 4
+SOURCE DOM dataset_A_05_2020_p3.pickle 100 eligible extraction 98 errors 2
+SOURCE DOM dataset_A_05_2020_p4.pickle 100 eligible extraction 97 errors 3
+SOURCE DOM dataset_A_05_2020_p5.pickle 100 eligible extraction 98 errors 2
+SOURCE DOM dataset_A_05_2020_p6.pickle 100 eligible extraction 98 errors 2
+SOURCE DOM dataset_A_05_2020_p7.pickle 100 eligible extraction 97 errors 3
+SOURCE DOM dataset_A_05_2020_p8.pickle 100 eligible extraction 100 errors 0
+SOURCE DOM dataset_A_05_2020_p9.pickle 100 eligible extraction 97 errors 3
+TARGET HTML 500 / 15358 errors 0
+TARGET HTML 1000 / 15358 errors 0
+TARGET HTML 1500 / 15358 errors 0
+TARGET HTML 2000 / 15358 errors 0
+TARGET HTML 2500 / 15358 errors 0
+TARGET HTML 3000 / 15358 errors 0
+TARGET HTML 3500 / 15358 errors 0
+TARGET HTML 4000 / 15358 errors 0
+TARGET HTML 4500 / 15358 errors 0
+TARGET HTML 5000 / 15358 errors 0
+TARGET HTML 5500 / 15358 errors 0
+TARGET HTML 6000 / 15358 errors 0
+TARGET HTML 6500 / 15358 errors 2
+TARGET HTML 7000 / 15358 errors 3
+TARGET HTML 7500 / 15358 errors 3
+TARGET HTML 8000 / 15358 errors 3
+TARGET HTML 8500 / 15358 errors 3
+TARGET HTML 9000 / 15358 errors 3
+TARGET HTML 9500 / 15358 errors 6
+TARGET HTML 10000 / 15358 errors 11
+TARGET HTML 10500 / 15358 errors 11
+TARGET HTML 11000 / 15358 errors 11
+TARGET HTML 11500 / 15358 errors 11
+TARGET HTML 12000 / 15358 errors 11
+TARGET HTML 12500 / 15358 errors 11
+TARGET HTML 13000 / 15358 errors 11
+TARGET HTML 13500 / 15358 errors 11
+TARGET HTML 14000 / 15358 errors 11
+TARGET HTML 14500 / 15358 errors 11
+TARGET HTML 15000 / 15358 errors 11
+{
+  "sealed_test": {
+    "n": 7047,
+    "normal": 4407,
+    "phishing": 2640,
+    "domains": 6226
+  },
+  "source_calibration": {
+    "n": 258,
+    "normal": 167,
+    "phishing": 91,
+    "domains": 240
+  },
+  "source_train": {
+    "n": 687,
+    "normal": 418,
+    "phishing": 269,
+    "domains": 558
+  },
+  "target_calibration": {
+    "n": 2346,
+    "normal": 1468,
+    "phishing": 878,
+    "domains": 2076
+  },
+  "target_train": {
+    "n": 2347,
+    "normal": 1468,
+    "phishing": 879,
+    "domains": 2076
+  }
+}

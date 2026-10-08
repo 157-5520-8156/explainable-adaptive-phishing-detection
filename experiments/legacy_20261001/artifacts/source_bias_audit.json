@@ -1,0 +1,27 @@
+{
+  "https_by_class_counts": {
+    "0": {
+      "0": 0,
+      "1": 51623
+    },
+    "1": {
+      "0": 134850,
+      "1": 48679
+    }
+  },
+  "rows_with_nonempty_path_by_class": {
+    "0": 0,
+    "1": 59788
+  },
+  "host_only_features": [
+    "host_length",
+    "host_digit_ratio",
+    "host_hyphens",
+    "subdomain_count",
+    "suffix_length",
+    "host_is_ip",
+    "has_punycode"
+  ],
+  "ablation_status": "Exploratory after seeing SHAP and initial holdout results. Not a preregistered confirmatory test; does not change main model.",
+  "interpretation": "Strong scheme/label association may reflect collection bias; it is not a universal safety rule."
+}

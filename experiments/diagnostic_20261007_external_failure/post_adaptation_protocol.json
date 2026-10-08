@@ -1,0 +1,227 @@
+{
+  "started_at": "2026-10-07T00:47:19.056050+08:00",
+  "status": "post-hoc diagnostic; evaluation specification saved before scoring these checkpoints",
+  "test": "same 40,810-row domain-disjoint external holdout used by the earlier frozen source-model evaluation",
+  "checkpoint_selection": "last applied model and threshold at the last original replay prediction batch",
+  "no_refitting": true,
+  "no_threshold_selection_using_holdout": true,
+  "model_count": 24,
+  "specifications": [
+    {
+      "seed": 17,
+      "policy": "drift",
+      "delay_batches": 0,
+      "version": 1,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_17_drift_0/version_1.joblib",
+      "model_sha256": "2cc17847ec16a45c71a2e21ae6070cde4634032e760a5f469e88d141fb7d6794"
+    },
+    {
+      "seed": 17,
+      "policy": "drift",
+      "delay_batches": 2,
+      "version": 1,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_17_drift_2/version_1.joblib",
+      "model_sha256": "2cc17847ec16a45c71a2e21ae6070cde4634032e760a5f469e88d141fb7d6794"
+    },
+    {
+      "seed": 17,
+      "policy": "fixed",
+      "delay_batches": 0,
+      "version": 0,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_17_fixed_0/version_0.joblib",
+      "model_sha256": "a81468ddf02fb2a7d50a974d1ec1d1e23b37a4415d751fcd1d848114581bddcc"
+    },
+    {
+      "seed": 17,
+      "policy": "fixed",
+      "delay_batches": 2,
+      "version": 0,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_17_fixed_2/version_0.joblib",
+      "model_sha256": "a81468ddf02fb2a7d50a974d1ec1d1e23b37a4415d751fcd1d848114581bddcc"
+    },
+    {
+      "seed": 17,
+      "policy": "periodic",
+      "delay_batches": 0,
+      "version": 7,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_17_periodic_0/version_7.joblib",
+      "model_sha256": "e39251d373dd11a08a15392db809bceb6eeac22ade0af5c8d4c58b39b3d67db8"
+    },
+    {
+      "seed": 17,
+      "policy": "periodic",
+      "delay_batches": 2,
+      "version": 6,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_17_periodic_2/version_6.joblib",
+      "model_sha256": "6cfa0b523680db5a872ccec20f1f40730e0bf74a4483149eb872c8d263c86f57"
+    },
+    {
+      "seed": 17,
+      "policy": "threshold",
+      "delay_batches": 0,
+      "version": 0,
+      "threshold": 0.0017289654845782,
+      "model": "artifacts/replay_models/source_switch_17_threshold_0/version_0.joblib",
+      "model_sha256": "a81468ddf02fb2a7d50a974d1ec1d1e23b37a4415d751fcd1d848114581bddcc"
+    },
+    {
+      "seed": 17,
+      "policy": "threshold",
+      "delay_batches": 2,
+      "version": 0,
+      "threshold": 0.0052690199796542,
+      "model": "artifacts/replay_models/source_switch_17_threshold_2/version_0.joblib",
+      "model_sha256": "a81468ddf02fb2a7d50a974d1ec1d1e23b37a4415d751fcd1d848114581bddcc"
+    },
+    {
+      "seed": 42,
+      "policy": "drift",
+      "delay_batches": 0,
+      "version": 1,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_42_drift_0/version_1.joblib",
+      "model_sha256": "243bc122f4d6fe793214067a9d4df271c778a8e0d277b0acd130b7015b4898cb"
+    },
+    {
+      "seed": 42,
+      "policy": "drift",
+      "delay_batches": 2,
+      "version": 1,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_42_drift_2/version_1.joblib",
+      "model_sha256": "243bc122f4d6fe793214067a9d4df271c778a8e0d277b0acd130b7015b4898cb"
+    },
+    {
+      "seed": 42,
+      "policy": "fixed",
+      "delay_batches": 0,
+      "version": 0,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_42_fixed_0/version_0.joblib",
+      "model_sha256": "8603bd8e2a201900a0dd73d0869f29c03de4fda1d4008e8461b362e121ad7fda"
+    },
+    {
+      "seed": 42,
+      "policy": "fixed",
+      "delay_batches": 2,
+      "version": 0,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_42_fixed_2/version_0.joblib",
+      "model_sha256": "8603bd8e2a201900a0dd73d0869f29c03de4fda1d4008e8461b362e121ad7fda"
+    },
+    {
+      "seed": 42,
+      "policy": "periodic",
+      "delay_batches": 0,
+      "version": 7,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_42_periodic_0/version_7.joblib",
+      "model_sha256": "4a1ef30395c2cc3872a698bd553cba9e29916a32687299b89350eeede8ae0d9d"
+    },
+    {
+      "seed": 42,
+      "policy": "periodic",
+      "delay_batches": 2,
+      "version": 6,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_42_periodic_2/version_6.joblib",
+      "model_sha256": "0d6740f52c09932a2600b98b66b852a2aeec4920073db0930d30a7d8ffd7bd12"
+    },
+    {
+      "seed": 42,
+      "policy": "threshold",
+      "delay_batches": 0,
+      "version": 0,
+      "threshold": 0.0037269526249197,
+      "model": "artifacts/replay_models/source_switch_42_threshold_0/version_0.joblib",
+      "model_sha256": "8603bd8e2a201900a0dd73d0869f29c03de4fda1d4008e8461b362e121ad7fda"
+    },
+    {
+      "seed": 42,
+      "policy": "threshold",
+      "delay_batches": 2,
+      "version": 0,
+      "threshold": 0.1487141025641025,
+      "model": "artifacts/replay_models/source_switch_42_threshold_2/version_0.joblib",
+      "model_sha256": "8603bd8e2a201900a0dd73d0869f29c03de4fda1d4008e8461b362e121ad7fda"
+    },
+    {
+      "seed": 73,
+      "policy": "drift",
+      "delay_batches": 0,
+      "version": 1,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_73_drift_0/version_1.joblib",
+      "model_sha256": "c5ee5b8d1ff49c505417cde5da3e6be3fe2cb21cd2f769ce065d2418e84192b5"
+    },
+    {
+      "seed": 73,
+      "policy": "drift",
+      "delay_batches": 2,
+      "version": 1,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_73_drift_2/version_1.joblib",
+      "model_sha256": "c5ee5b8d1ff49c505417cde5da3e6be3fe2cb21cd2f769ce065d2418e84192b5"
+    },
+    {
+      "seed": 73,
+      "policy": "fixed",
+      "delay_batches": 0,
+      "version": 0,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_73_fixed_0/version_0.joblib",
+      "model_sha256": "25628b32f179af336d5a628bdc73db10e9d53cbbeb98dcbaedf659cd9aeae333"
+    },
+    {
+      "seed": 73,
+      "policy": "fixed",
+      "delay_batches": 2,
+      "version": 0,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_73_fixed_2/version_0.joblib",
+      "model_sha256": "25628b32f179af336d5a628bdc73db10e9d53cbbeb98dcbaedf659cd9aeae333"
+    },
+    {
+      "seed": 73,
+      "policy": "periodic",
+      "delay_batches": 0,
+      "version": 7,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_73_periodic_0/version_7.joblib",
+      "model_sha256": "974a13950e4475e668d4809ab136b2dd3b98a94f074c733b3a9c8928b97cfb32"
+    },
+    {
+      "seed": 73,
+      "policy": "periodic",
+      "delay_batches": 2,
+      "version": 6,
+      "threshold": 0.5,
+      "model": "artifacts/replay_models/source_switch_73_periodic_2/version_6.joblib",
+      "model_sha256": "3874f340eb98b368242264402c28623895755605a3617c1b7a0d1fcc8abe329a"
+    },
+    {
+      "seed": 73,
+      "policy": "threshold",
+      "delay_batches": 0,
+      "version": 0,
+      "threshold": 0.009861981373745,
+      "model": "artifacts/replay_models/source_switch_73_threshold_0/version_0.joblib",
+      "model_sha256": "25628b32f179af336d5a628bdc73db10e9d53cbbeb98dcbaedf659cd9aeae333"
+    },
+    {
+      "seed": 73,
+      "policy": "threshold",
+      "delay_batches": 2,
+      "version": 0,
+      "threshold": 0.3456107338409055,
+      "model": "artifacts/replay_models/source_switch_73_threshold_2/version_0.joblib",
+      "model_sha256": "25628b32f179af336d5a628bdc73db10e9d53cbbeb98dcbaedf659cd9aeae333"
+    }
+  ]
+}

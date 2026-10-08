@@ -1,0 +1,241 @@
+{
+  "source_snapshot_rows": 1000,
+  "source_csv_rows": 11430,
+  "source_snapshots_are_subset": true,
+  "source_extraction_failures": [
+    {
+      "URL": "http://signin-store-ws.frontieroption.com/",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "http://mail.verzekeringskantoorhanssmit.nl/~u43730p39181/pki-validation",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "http://mail.meetingsguide.nl/~u43730p39181/pki-validation",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "https://nab.support.fortscratchley.org.au/",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "http://paypa1verification.goldensealstudio.com/login",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "http://23.4.43.27/mobile.php",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "https://neeted.inditioncra.com/12c4l42e",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "http://mail.snackbar-dietwee.nl/~u43730p39181/pki-validation",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "http://www.iphonecases.pk/ebay.de.item.payds.dll.sld/ebyson-item-good/4c1f00cd117e0f1e8e42a646ccb9ffcc.php",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "https://ketapang.bawaslu.go.id/english/english/english/english/index.php?email=olinrogers@legalshield.com",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "http://153284594738391.statictab.com/2506080/",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "http://jdih.sambas.go.id/wp-includes/css/nnbill",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "http://mail.openatelier.nl/~u43730p39181/pki-validation",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "http://www.dianaimpex.com/js/page.html",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "http://drcur.smevmail.com/index.php?id=6741e888c8eaa649c1a616ffd2104e6d&on=1&response_type=code&email=fofa@yahoo.com&date=1593272380&token=ebcd5b8338278a6cc45878eba0923930",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "http://mail.toneelstukken.nl/~u43730p39181/pki-validation",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "http://casite-596081.cloudaccess.net/administrator/cache/help/customer_center/customer-IDPP00C941/myaccount/signin/",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "https://bibliotecabayer.org.ar/wp-admin/oo/att/",
+      "y": 1,
+      "reason": "No archived page elements"
+    },
+    {
+      "URL": "http://mail.poeliersbedrijfhazenbroek.nl/~u43730p39181/pki-validation",
+      "y": 1,
+      "reason": "No archived page elements"
+    }
+  ],
+  "target_extraction_failures": [
+    {
+      "URL": "https://kwrztqftn2ov7qb.pages.dev/smart89/",
+      "y": 1,
+      "serial": 202420250338,
+      "reason": "Archived HTML byte limit exceeded"
+    },
+    {
+      "URL": "https://eb2y9nmbzj.pages.dev/smart89/",
+      "y": 1,
+      "serial": 202420250380,
+      "reason": "Archived HTML byte limit exceeded"
+    },
+    {
+      "URL": "https://gamels-juanpinero35691709.codeanyapp.com/wp-admin/men/men/infospage.php",
+      "y": 1,
+      "serial": 202420250774,
+      "reason": "Missing archived HTML"
+    },
+    {
+      "URL": "https://www.dafont.com/",
+      "y": 0,
+      "serial": 202420253632,
+      "reason": "Missing archived HTML"
+    },
+    {
+      "URL": "https://www.dreamstime.com/",
+      "y": 0,
+      "serial": 202420253686,
+      "reason": "Missing archived HTML"
+    },
+    {
+      "URL": "https://www.usgs.gov/",
+      "y": 0,
+      "serial": 202420253813,
+      "reason": "Missing archived HTML"
+    },
+    {
+      "URL": "https://www.admin.ch/",
+      "y": 0,
+      "serial": 202420254124,
+      "reason": "Missing archived HTML"
+    },
+    {
+      "URL": "https://www.usgs.gov/programs/earthquake-hazards",
+      "y": 0,
+      "serial": 202420254138,
+      "reason": "Missing archived HTML"
+    },
+    {
+      "URL": "https://www.advanceautoparts.com/",
+      "y": 0,
+      "serial": 202420254273,
+      "reason": "Missing archived HTML"
+    },
+    {
+      "URL": "https://www.warhammer.com/home",
+      "y": 0,
+      "serial": 202420254365,
+      "reason": "Missing archived HTML"
+    },
+    {
+      "URL": "http://www.unipune.ac.in/",
+      "y": 0,
+      "serial": 202420254420,
+      "reason": "Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration."
+    }
+  ],
+  "source_quality_exclusions": {
+    "0": 0,
+    "1": 0
+  },
+  "target_quality_exclusions": {
+    "0": 0,
+    "1": 0
+  },
+  "source_conflicts_duplicates": {
+    "normalized_conflicting_rows": 0,
+    "normalized_duplicate_rows": 0,
+    "content_hash_conflicting_rows": 0,
+    "content_hash_duplicate_rows": 36
+  },
+  "target_conflicts_duplicates": {
+    "normalized_conflicting_rows": 0,
+    "normalized_duplicate_rows": 61,
+    "content_hash_conflicting_rows": 233,
+    "content_hash_duplicate_rows": 2032
+  },
+  "target_source_overlap_excluded_by_class": {
+    "0": {
+      "domain_overlap": 676,
+      "content_overlap": 0
+    },
+    "1": {
+      "domain_overlap": 605,
+      "content_overlap": 0
+    }
+  },
+  "target_original_mapping_n": 15358,
+  "target_decode_replacements": 4615,
+  "role_counts": {
+    "sealed_test": {
+      "n": 7047,
+      "normal": 4407,
+      "phishing": 2640,
+      "domains": 6226
+    },
+    "source_calibration": {
+      "n": 258,
+      "normal": 167,
+      "phishing": 91,
+      "domains": 240
+    },
+    "source_train": {
+      "n": 687,
+      "normal": 418,
+      "phishing": 269,
+      "domains": 558
+    },
+    "target_calibration": {
+      "n": 2346,
+      "normal": 1468,
+      "phishing": 878,
+      "domains": 2076
+    },
+    "target_train": {
+      "n": 2347,
+      "normal": 1468,
+      "phishing": 879,
+      "domains": 2076
+    }
+  },
+  "all_roles_domain_disjoint": true,
+  "source_target_exact_content_disjoint": true,
+  "limitations": [
+    "Source snapshots are creator-parsed DOM; target parser/capture can differ.",
+    "Exact normalized DOM fingerprints do not detect every shared template or campaign.",
+    "Published historical labels not independently reverified."
+  ]
+}

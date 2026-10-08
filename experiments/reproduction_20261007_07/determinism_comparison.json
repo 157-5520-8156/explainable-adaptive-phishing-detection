@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "left": "experiments/reproduction_20261007_06",
+  "right": "experiments/reproduction_20261007_07",
+  "same_verified_raw_inputs_and_source_and_runtime": true,
+  "comparison_started_after_both_runs_completed": true,
+  "checks": [
+    {
+      "file": "workspace/experiments/url_run/artifacts/development_partition_manifest.csv",
+      "byte_identical": true
+    },
+    {
+      "file": "workspace/experiments/url_run/artifacts/new_source_partition_manifest.csv",
+      "byte_identical": true
+    },
+    {
+      "file": "workspace/experiments/url_run/artifacts/training_manifest.csv",
+      "byte_identical": true
+    },
+    {
+      "file": "url_test_metrics.csv",
+      "rows": 84,
+      "all_substantive_values_identical": true,
+      "ignored_timing_columns": []
+    },
+    {
+      "file": "page_replay_metrics.csv",
+      "rows": 48,
+      "all_substantive_values_identical": true,
+      "ignored_timing_columns": [
+        "seconds"
+      ]
+    },
+    {
+      "file": "page_final_test_metrics.csv",
+      "rows": 48,
+      "all_substantive_values_identical": true,
+      "ignored_timing_columns": []
+    },
+    {
+      "file": "workspace/experiments/url_run/artifacts/validation_metrics.csv",
+      "rows": 54,
+      "all_substantive_values_identical": true,
+      "ignored_timing_columns": []
+    },
+    {
+      "file": "workspace/experiments/url_run/artifacts/validation_calibrations.json",
+      "calibration_identical": true
+    },
+    {
+      "file": "workspace/experiments/page_run/artifacts/selection.json",
+      "calibration_identical": true
+    }
+  ],
+  "identical_url_score_archives": 45,
+  "identical_page_prediction_ledgers": 96,
+  "comparison_tolerance": 0,
+  "interpretation": "Exact substantive reproduction in this pinned environment after serial forest inference amendment; not independent population replication or historical forest boundary equality."
+}

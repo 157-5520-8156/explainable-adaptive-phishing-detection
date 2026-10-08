@@ -1,0 +1,37 @@
+{
+  "selected_family": "hist_gradient_boosting",
+  "static_test": {
+    "n": 6849,
+    "normal_n": 3429,
+    "phishing_n": 3420,
+    "tn": 3215,
+    "fp": 214,
+    "fn": 608,
+    "tp": 2812,
+    "fpr": 0.06240886555847186,
+    "recall": 0.8222222222222222,
+    "precision": 0.929279576999339,
+    "f1": 0.8724790567793981,
+    "average_precision": 0.9527667147976857,
+    "roc_auc": 0.9527061066684404,
+    "domain_macro_fpr": 0.050761881291855646,
+    "domain_macro_recall": 0.7970565813331673
+  },
+  "initial_cutoff": 0.7146983903057679,
+  "paired_policy_intervals": {
+    "comparison": "periodic minus fixed; path_profile delay2 seed42",
+    "domain_bootstrap_replicates": 1000,
+    "delta_fpr_95": [
+      -0.02143739290855211,
+      0.0006133856151780847
+    ],
+    "delta_recall_95": [
+      -0.042187240485418005,
+      -0.004674228214306192
+    ],
+    "conditional_on_fitted_models": true
+  },
+  "content_feature_count": 24,
+  "url_feature_count": 44,
+  "test_evaluation_is_new_domains_same_corpus": true
+}

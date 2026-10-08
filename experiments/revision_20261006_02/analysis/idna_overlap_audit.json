@@ -1,0 +1,11 @@
+{
+  "source_non_ascii_rows": 0,
+  "external_non_ascii_rows": 0,
+  "source_idna_group_overlap": {
+    "train_test": 0,
+    "train_validation": 0,
+    "validation_test": 0
+  },
+  "source_external_idna_overlap": 0,
+  "external_holdout_adaptation_idna_overlap": 0
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "compared_prediction_vectors": 120,
+  "all_confusion_counts_identical": true,
+  "all_partition_and_training_manifests_byte_identical": true,
+  "maximum_ranking_metric_difference": 1.4768819500687869e-08,
+  "no_prior_features_or_models_used_by_clean_run": true,
+  "scope": "Reproduction, not another independent population validation."
+}

@@ -1,0 +1,36 @@
+{
+  "always_normal": {
+    "n": 7047,
+    "normal_n": 4407,
+    "phishing_n": 2640,
+    "tn": 4407,
+    "fp": 0,
+    "fn": 2640,
+    "tp": 0,
+    "fpr": 0.0,
+    "recall": 0.0,
+    "precision": 0,
+    "f1": 0.0,
+    "average_precision": 0.37462750106428266,
+    "roc_auc": 0.5,
+    "domain_macro_fpr": 0.0,
+    "domain_macro_recall": 0.0
+  },
+  "always_phishing": {
+    "n": 7047,
+    "normal_n": 4407,
+    "phishing_n": 2640,
+    "tn": 0,
+    "fp": 4407,
+    "fn": 0,
+    "tp": 2640,
+    "fpr": 1.0,
+    "recall": 1.0,
+    "precision": 0.37462750106428266,
+    "f1": 0.5450603902136885,
+    "average_precision": 0.37462750106428266,
+    "roc_auc": 0.5,
+    "domain_macro_fpr": 1.0,
+    "domain_macro_recall": 1.0
+  }
+}

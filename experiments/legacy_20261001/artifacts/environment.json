@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "machine": "arm64",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "shap": "0.52.0",
+    "river": "0.26.1",
+    "tldextract": "5.3.2",
+    "matplotlib": "3.11.2"
+  },
+  "config_sha256": "22034a41089768cf3ca461d2896eeb0eaf3f93895ddba275f03f80ee9488d77b"
+}

@@ -1,0 +1,81 @@
+{
+  "checks": {
+    "source": {
+      "rows": 235152,
+      "raw_label_mapping_exact": true,
+      "recomputed_feature_rows": 512,
+      "max_feature_error": 0.0
+    },
+    "external": {
+      "rows": 78202,
+      "raw_label_mapping_exact": true,
+      "recomputed_feature_rows": 512,
+      "max_feature_error": 0.0
+    }
+  },
+  "model_features_match": true,
+  "classes": [
+    0,
+    1
+  ],
+  "threshold": 0.5031817281611769,
+  "full_holdout_reprediction": {
+    "n": 40810,
+    "tn": 91,
+    "fp": 29139,
+    "fn": 232,
+    "tp": 11348,
+    "fpr": 0.9968867601778995,
+    "predicted_phishing_fraction": 0.9920852732173487,
+    "ap": 0.2501238916834946,
+    "auroc": 0.41457279736613384,
+    "saved_probability_max_difference": 3.3306690738754696e-16,
+    "positive_prevalence": 0.2837539818671894
+  },
+  "url_representation_probe": [
+    {
+      "url": "https://wikipedia.org",
+      "score": 0.9591095478363707,
+      "predicted_phishing": true,
+      "path_length": 0,
+      "slash_count": 2
+    },
+    {
+      "url": "https://wikipedia.org/",
+      "score": 1.0,
+      "predicted_phishing": true,
+      "path_length": 1,
+      "slash_count": 3
+    },
+    {
+      "url": "https://wikipedia.org/wiki/Main_Page",
+      "score": 1.0,
+      "predicted_phishing": true,
+      "path_length": 15,
+      "slash_count": 4
+    }
+  ],
+  "normal_path_strata": [
+    {
+      "stratum": "empty_path",
+      "normal_n": 412,
+      "false_positive_n": 321,
+      "fpr": 0.779126213592233
+    },
+    {
+      "stratum": "root_path",
+      "normal_n": 2428,
+      "false_positive_n": 2428,
+      "fpr": 1.0
+    },
+    {
+      "stratum": "other_path",
+      "normal_n": 26390,
+      "false_positive_n": 26390,
+      "fpr": 1.0
+    }
+  ],
+  "source_legitimate_nonempty_paths": 0,
+  "source_legitimate_n": 134850,
+  "interpretation_boundary": "URL representation probes are model diagnostics, not new labelled evaluation data; published external labels are adopted, not independently certified."
+}

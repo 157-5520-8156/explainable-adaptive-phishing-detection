@@ -1,0 +1,9 @@
+{
+  "family": "random_forest",
+  "seed": 17,
+  "fit_seconds": 2.1648274580948055,
+  "training_n": 68246,
+  "sha256": "2488795147faf09cbfb009f9c5821b9a42f53517307d0d8cb9c8deaa857e1596",
+  "reused_from": "redesign_20261007_01",
+  "reuse_basis": "Identical training, development and feature-name artifact hashes; estimator unaffected by calibration probability-shape fix."
+}

@@ -1,0 +1,10 @@
+numpy==2.3.5
+pandas==2.2.3
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2
+shap==0.52.0
+river==0.26.1
+tldextract==5.3.2
+python-docx==1.2.0
+lxml==6.1.1

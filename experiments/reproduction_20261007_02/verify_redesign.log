@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "replay_realizations": 48,
+  "verified_prediction_files": 96,
+  "domain_isolation_checks": [
+    "initial_train/calibration domains disjoint",
+    "initial_train/replay_pool domains disjoint",
+    "initial_train/sealed_test domains disjoint",
+    "calibration/replay_pool domains disjoint",
+    "calibration/sealed_test domains disjoint",
+    "replay_pool/sealed_test domains disjoint"
+  ],
+  "label_arrival_and_update_timing_verified": true,
+  "confusion_matrices_recomputed": true,
+  "frozen_artifact_hashes_verified": true,
+  "limitation": "This verifies implementation and calculations, not dataset labels or universal generalization."
+}

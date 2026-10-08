@@ -1,0 +1,42 @@
+[
+  {
+    "caption": "Figure 1-1. Structure of the project report.",
+    "path": "/Users/geoff/Projects/FinalProject/experiments/revision_20261006_02/analysis/figures/figure_1_1_structure.png",
+    "sha256": "d81071b3c59c46745a771bba565c9cfa156ed8aaec3c84722b0f9b80ead212f9"
+  },
+  {
+    "caption": "Figure 3-1. Source fitting, external evaluation and controlled adaptive replay.",
+    "path": "/Users/geoff/Projects/FinalProject/experiments/revision_20261006_02/analysis/figures/figure_3_1_architecture.png",
+    "sha256": "b9690cce3295c9aa008d13e48cb353a213049e4d106c05b50d19c712dcacfb6e"
+  },
+  {
+    "caption": "Figure 4-1. Source-test precision\u2013recall curves for seed 17. Panel (a) shows the full range and class-prevalence baseline; panel (b) expands the high-score region. Dots mark validation-selected thresholds. Both panels use the same observed predictions.",
+    "path": "/Users/geoff/Projects/FinalProject/experiments/revision_20261006_02/analysis/figures/figure_4_1_source_pr.png",
+    "sha256": "87ec2f65181c01fb7535648114a26a92381342f6f10da158ca9dd26bb5c39ae2"
+  },
+  {
+    "caption": "Figure 4-2. External-holdout precision\u2013recall curves for the frozen seed-17 forests. Threshold dots retain source-validation choices. The external prevalence differs from the source-test prevalence, so AP values must be interpreted within their respective populations.",
+    "path": "/Users/geoff/Projects/FinalProject/experiments/revision_20261006_02/analysis/figures/figure_4_2_external_pr.png",
+    "sha256": "d0c265e0f059c900a256d21b60514db87c1d008b578c72ef94047cdbd555f7a1"
+  },
+  {
+    "caption": "Figure 4-3. Mean absolute phishing-score SHAP contributions on 160 source-test observations, using 80 source-training background examples.",
+    "path": "/Users/geoff/Projects/FinalProject/experiments/revision_20261006_02/analysis/figures/figure_4_3_shap.png",
+    "sha256": "136e43d118be67e56845740aff420a27a8a6dc85d9b5121a952eeecf8c31944c"
+  },
+  {
+    "caption": "Figure 4-4. Exploratory source-holdout F1 under restricted feature sets. These diagnostic variants reuse the source holdout and do not constitute independent confirmatory experiments.",
+    "path": "/Users/geoff/Projects/FinalProject/experiments/revision_20261006_02/analysis/figures/figure_4_6_ablation.png",
+    "sha256": "9446476781d0eab756b9faf0b0e5d3e1537220163d87bc5499a01e3b8e97ba22"
+  },
+  {
+    "caption": "Figure 4-5. Source-switch batch F1 aligned to each realization\u2019s designed boundary. Lines are three-run means and shading is one standard deviation, not a confidence interval. Only relative positions observed in all three realizations are shown.",
+    "path": "/Users/geoff/Projects/FinalProject/experiments/revision_20261006_02/analysis/figures/figure_4_4_source_replay.png",
+    "sha256": "05742ffe39ac4d85030ff734aee808688000cf9b460eb9080b94c0acea8b7d62"
+  },
+  {
+    "caption": "Figure 4-6. Source-switch forest refits and total forest fitting time, averaged over three runs. The threshold-only policy changes cutoffs without refitting. Fitting time excludes detection, calibration, prediction and checkpoint persistence.",
+    "path": "/Users/geoff/Projects/FinalProject/experiments/revision_20261006_02/analysis/figures/figure_4_5_update_cost.png",
+    "sha256": "7e2fa0a70343e7b4739b48f37b585f1da51e6c288983a3cce94964f56a489366"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "family": "numeric_logistic",
+  "seed": 17,
+  "fit_seconds": 0.8634000000311062,
+  "training_n": 68246,
+  "sha256": "290132bc435518dffb1a636a1aecdfb3ec1d01dacd67702f49c8f86293cd95c7"
+}

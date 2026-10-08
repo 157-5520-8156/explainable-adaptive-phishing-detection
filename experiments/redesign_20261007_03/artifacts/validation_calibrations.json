@@ -1,0 +1,596 @@
+[
+  {
+    "family": "numeric_logistic",
+    "seed": 17,
+    "threshold": 0.983469010613513,
+    "fpr_budget": 0.01,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 3.7465812446142895e-05,
+        "recall": 0.04161490683229813
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.009924957637375938,
+        "recall": 0.051573426573426576
+      }
+    },
+    "recall": 0.0426693817104776
+  },
+  {
+    "family": "numeric_logistic",
+    "seed": 17,
+    "threshold": 0.7871870657624068,
+    "fpr_budget": 0.05,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.013600089917949872,
+        "recall": 0.25383022774327124
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.04986686032437666,
+        "recall": 0.2854020979020979
+      }
+    },
+    "recall": 0.2571732691595705
+  },
+  {
+    "family": "numeric_logistic",
+    "seed": 42,
+    "threshold": 0.983469010613513,
+    "fpr_budget": 0.01,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 3.7465812446142895e-05,
+        "recall": 0.04161490683229813
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.009924957637375938,
+        "recall": 0.051573426573426576
+      }
+    },
+    "recall": 0.0426693817104776
+  },
+  {
+    "family": "numeric_logistic",
+    "seed": 42,
+    "threshold": 0.7871870657624068,
+    "fpr_budget": 0.05,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.013600089917949872,
+        "recall": 0.25383022774327124
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.04986686032437666,
+        "recall": 0.2854020979020979
+      }
+    },
+    "recall": 0.2571732691595705
+  },
+  {
+    "family": "numeric_logistic",
+    "seed": 73,
+    "threshold": 0.983469010613513,
+    "fpr_budget": 0.01,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 3.7465812446142895e-05,
+        "recall": 0.04161490683229813
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.009924957637375938,
+        "recall": 0.051573426573426576
+      }
+    },
+    "recall": 0.0426693817104776
+  },
+  {
+    "family": "numeric_logistic",
+    "seed": 73,
+    "threshold": 0.7871870657624068,
+    "fpr_budget": 0.05,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.013600089917949872,
+        "recall": 0.25383022774327124
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.04986686032437666,
+        "recall": 0.2854020979020979
+      }
+    },
+    "recall": 0.2571732691595705
+  },
+  {
+    "family": "random_forest",
+    "seed": 17,
+    "threshold": 0.9555164147791376,
+    "fpr_budget": 0.01,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.00044958974935371473,
+        "recall": 0.26413043478260867
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.009198741224885015,
+        "recall": 0.458041958041958
+      }
+    },
+    "recall": 0.28466308774527954
+  },
+  {
+    "family": "random_forest",
+    "seed": 17,
+    "threshold": 0.8738460843710553,
+    "fpr_budget": 0.05,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.00427110261886029,
+        "recall": 0.47525879917184266
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.04986686032437666,
+        "recall": 0.6844405594405595
+      }
+    },
+    "recall": 0.497408367271381
+  },
+  {
+    "family": "random_forest",
+    "seed": 42,
+    "threshold": 0.9589543188429692,
+    "fpr_budget": 0.01,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.00026226068712300026,
+        "recall": 0.24606625258799172
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.009924957637375938,
+        "recall": 0.4326923076923077
+      }
+    },
+    "recall": 0.26582747130692336
+  },
+  {
+    "family": "random_forest",
+    "seed": 42,
+    "threshold": 0.8602766280755939,
+    "fpr_budget": 0.05,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.004720692368214005,
+        "recall": 0.493167701863354
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.04986686032437666,
+        "recall": 0.7006118881118881
+      }
+    },
+    "recall": 0.5151332839689005
+  },
+  {
+    "family": "random_forest",
+    "seed": 73,
+    "threshold": 0.9579317010209317,
+    "fpr_budget": 0.01,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.0005619871866921434,
+        "recall": 0.25869565217391305
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.009924957637375938,
+        "recall": 0.45104895104895104
+      }
+    },
+    "recall": 0.2790633098852277
+  },
+  {
+    "family": "random_forest",
+    "seed": 73,
+    "threshold": 0.8761629582415809,
+    "fpr_budget": 0.05,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.0040837735566295755,
+        "recall": 0.4720496894409938
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.04986686032437666,
+        "recall": 0.6857517482517482
+      }
+    },
+    "recall": 0.49467789707515736
+  },
+  {
+    "family": "hist_gradient_boosting",
+    "seed": 17,
+    "threshold": 0.9625761382526186,
+    "fpr_budget": 0.01,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.0010115769360458582,
+        "recall": 0.3872670807453416
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.009924957637375938,
+        "recall": 0.5751748251748252
+      }
+    },
+    "recall": 0.4071640133283969
+  },
+  {
+    "family": "hist_gradient_boosting",
+    "seed": 17,
+    "threshold": 0.8881481022831561,
+    "fpr_budget": 0.05,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.004383500056198719,
+        "recall": 0.5025879917184265
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.04962478818687969,
+        "recall": 0.7211538461538461
+      }
+    },
+    "recall": 0.5257312106627176
+  },
+  {
+    "family": "hist_gradient_boosting",
+    "seed": 42,
+    "threshold": 0.9625761382526186,
+    "fpr_budget": 0.01,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.0010115769360458582,
+        "recall": 0.3872670807453416
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.009924957637375938,
+        "recall": 0.5751748251748252
+      }
+    },
+    "recall": 0.4071640133283969
+  },
+  {
+    "family": "hist_gradient_boosting",
+    "seed": 42,
+    "threshold": 0.8881481022831561,
+    "fpr_budget": 0.05,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.004383500056198719,
+        "recall": 0.5025879917184265
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.04962478818687969,
+        "recall": 0.7211538461538461
+      }
+    },
+    "recall": 0.5257312106627176
+  },
+  {
+    "family": "hist_gradient_boosting",
+    "seed": 73,
+    "threshold": 0.9625761382526186,
+    "fpr_budget": 0.01,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.0010115769360458582,
+        "recall": 0.3872670807453416
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.009924957637375938,
+        "recall": 0.5751748251748252
+      }
+    },
+    "recall": 0.4071640133283969
+  },
+  {
+    "family": "hist_gradient_boosting",
+    "seed": 73,
+    "threshold": 0.8881481022831561,
+    "fpr_budget": 0.05,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.004383500056198719,
+        "recall": 0.5025879917184265
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.04962478818687969,
+        "recall": 0.7211538461538461
+      }
+    },
+    "recall": 0.5257312106627176
+  },
+  {
+    "family": "char_logistic",
+    "seed": 17,
+    "threshold": 0.9574665559877836,
+    "fpr_budget": 0.01,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.00018732906223071447,
+        "recall": 0.25874741200828155
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.009924957637375938,
+        "recall": 0.569493006993007
+      }
+    },
+    "recall": 0.2916512402813773
+  },
+  {
+    "family": "char_logistic",
+    "seed": 17,
+    "threshold": 0.7928856002369727,
+    "fpr_budget": 0.05,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.005657337679367577,
+        "recall": 0.5080745341614907
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.04986686032437666,
+        "recall": 0.7906468531468531
+      }
+    },
+    "recall": 0.5379951869677897
+  },
+  {
+    "family": "char_logistic",
+    "seed": 42,
+    "threshold": 0.9574665559877836,
+    "fpr_budget": 0.01,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.00018732906223071447,
+        "recall": 0.25874741200828155
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.009924957637375938,
+        "recall": 0.569493006993007
+      }
+    },
+    "recall": 0.2916512402813773
+  },
+  {
+    "family": "char_logistic",
+    "seed": 42,
+    "threshold": 0.7928856002369727,
+    "fpr_budget": 0.05,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.005657337679367577,
+        "recall": 0.5080745341614907
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.04986686032437666,
+        "recall": 0.7906468531468531
+      }
+    },
+    "recall": 0.5379951869677897
+  },
+  {
+    "family": "char_logistic",
+    "seed": 73,
+    "threshold": 0.9574665559877836,
+    "fpr_budget": 0.01,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.00018732906223071447,
+        "recall": 0.25874741200828155
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.009924957637375938,
+        "recall": 0.569493006993007
+      }
+    },
+    "recall": 0.2916512402813773
+  },
+  {
+    "family": "char_logistic",
+    "seed": 73,
+    "threshold": 0.7928856002369727,
+    "fpr_budget": 0.05,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.005657337679367577,
+        "recall": 0.5080745341614907
+      },
+      "Wangchuk": {
+        "normal_n": 4131,
+        "phishing_n": 2288,
+        "fpr": 0.04986686032437666,
+        "recall": 0.7906468531468531
+      }
+    },
+    "recall": 0.5379951869677897
+  },
+  {
+    "family": "source_only_random_forest",
+    "seed": 17,
+    "threshold": 0.7688305747213576,
+    "fpr_budget": 0.01,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.00996590611067401,
+        "recall": 0.651863354037267
+      }
+    },
+    "recall": 0.651863354037267
+  },
+  {
+    "family": "source_only_random_forest",
+    "seed": 17,
+    "threshold": 0.5305064757821084,
+    "fpr_budget": 0.05,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.04997939380315462,
+        "recall": 0.7269151138716357
+      }
+    },
+    "recall": 0.7269151138716357
+  },
+  {
+    "family": "source_only_random_forest",
+    "seed": 42,
+    "threshold": 0.7623394991380433,
+    "fpr_budget": 0.01,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.00996590611067401,
+        "recall": 0.6535714285714286
+      }
+    },
+    "recall": 0.6535714285714286
+  },
+  {
+    "family": "source_only_random_forest",
+    "seed": 42,
+    "threshold": 0.5342632601629494,
+    "fpr_budget": 0.05,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.04994192799070848,
+        "recall": 0.7290372670807453
+      }
+    },
+    "recall": 0.7290372670807453
+  },
+  {
+    "family": "source_only_random_forest",
+    "seed": 73,
+    "threshold": 0.763908911716422,
+    "fpr_budget": 0.01,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.00996590611067401,
+        "recall": 0.6510869565217391
+      }
+    },
+    "recall": 0.6510869565217391
+  },
+  {
+    "family": "source_only_random_forest",
+    "seed": 73,
+    "threshold": 0.5345792810695547,
+    "fpr_budget": 0.05,
+    "by_source": {
+      "PhiUSIIL": {
+        "normal_n": 26691,
+        "phishing_n": 19320,
+        "fpr": 0.04994192799070848,
+        "recall": 0.7300207039337474
+      }
+    },
+    "recall": 0.7300207039337474
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "title": "Web page phishing detection",
+  "version": 3,
+  "authors": [
+    "Abdelhakim Hannousse",
+    "Salima Yahiouche"
+  ],
+  "doi": "10.17632/c2gw7fy2j4.3",
+  "published": "2021-06-25",
+  "collection_period": "May 2020; not per-record observation timestamps",
+  "repository": "https://data.mendeley.com/datasets/c2gw7fy2j4/3",
+  "download_url": "https://data.mendeley.com/public-files/datasets/c2gw7fy2j4/files/575316f4-ee1d-453e-a04f-7b950915b61b/file_downloaded",
+  "license": "CC BY 4.0",
+  "sha256": "21093e2902e5441c86a6daf95e86e7c332046e477fdf109a579d7bd81e586d6c",
+  "bytes": 3661166,
+  "used_columns": [
+    "url",
+    "status"
+  ],
+  "released_engineered_features_used": false,
+  "live_destinations_visited": false,
+  "retrieved_at": "2026-10-07T11:25:00.687726+08:00"
+}

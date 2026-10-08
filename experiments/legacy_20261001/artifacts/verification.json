@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "raw data SHA256",
+    "canonical deduplication",
+    "domain-disjoint partitions",
+    "static metric reconstruction",
+    "same stream and initial model across strategies",
+    "label delay and model version causality",
+    "stream metric reconstruction",
+    "SHAP additivity"
+  ],
+  "limitations": "Checks establish artifact consistency and the stated protocol, not dataset representativeness or deployment effectiveness."
+}

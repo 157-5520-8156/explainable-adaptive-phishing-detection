@@ -1,0 +1,223 @@
+{
+  "status": "complete",
+  "started_at": "2026-10-07T16:08:14.181487+08:00",
+  "stages": [
+    {
+      "command": [
+        "scripts/prepare_redesign.py",
+        "--run-id",
+        "url_run"
+      ],
+      "started_at": "2026-10-07T16:08:14.278561+08:00",
+      "returncode": 0,
+      "seconds": 42.129925832967274,
+      "finished_at": "2026-10-07T16:08:56.408592+08:00",
+      "log": "prepare_redesign.log"
+    },
+    {
+      "command": [
+        "scripts/run_redesign_static.py",
+        "--run-id",
+        "url_run"
+      ],
+      "started_at": "2026-10-07T16:08:56.409128+08:00",
+      "returncode": 0,
+      "seconds": 78.74930870800745,
+      "finished_at": "2026-10-07T16:10:15.158626+08:00",
+      "log": "run_redesign_static.log"
+    },
+    {
+      "command": [
+        "scripts/run_page_study.py",
+        "--run-id",
+        "page_run",
+        "--base-partition",
+        "url_run"
+      ],
+      "started_at": "2026-10-07T16:10:15.159048+08:00",
+      "returncode": 0,
+      "seconds": 140.95450479199644,
+      "finished_at": "2026-10-07T16:12:36.113889+08:00",
+      "log": "run_page_study.log"
+    },
+    {
+      "command": [
+        "scripts/evaluate_redesign.py",
+        "--page-run-id",
+        "page_run",
+        "--url-run-id",
+        "url_run"
+      ],
+      "started_at": "2026-10-07T16:12:36.114482+08:00",
+      "returncode": 0,
+      "seconds": 78.87302599998657,
+      "finished_at": "2026-10-07T16:13:54.987698+08:00",
+      "log": "evaluate_redesign.log"
+    },
+    {
+      "command": [
+        "scripts/verify_redesign.py",
+        "--run-id",
+        "page_run"
+      ],
+      "started_at": "2026-10-07T16:13:54.988200+08:00",
+      "returncode": 0,
+      "seconds": 1.8116705829743296,
+      "finished_at": "2026-10-07T16:13:56.799884+08:00",
+      "log": "verify_redesign.log"
+    },
+    {
+      "command": [
+        "scripts/analyze_redesign.py",
+        "--run-id",
+        "page_run",
+        "--url-run-id",
+        "url_run"
+      ],
+      "started_at": "2026-10-07T16:13:56.800377+08:00",
+      "returncode": 0,
+      "seconds": 11.577605625032447,
+      "finished_at": "2026-10-07T16:14:08.378022+08:00",
+      "log": "analyze_redesign.log"
+    }
+  ],
+  "raw_only_start": true,
+  "old_experiment_or_processed_cache_copied": false,
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "dependencies": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.2",
+      "shap": "0.52.0",
+      "river": "0.26.1",
+      "tldextract": "5.3.2",
+      "python-docx": "1.2.0",
+      "lxml": "6.1.1",
+      "openpyxl": "3.1.5",
+      "requests": "2.34.2"
+    },
+    "pinned_versions_verified": true
+  },
+  "input_files": {
+    "PhiUSIIL_Phishing_URL_Dataset.csv": {
+      "sha256": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6",
+      "dataset_record": "https://archive.ics.uci.edu/dataset/967/phiusil-phishing-url-dataset",
+      "bytes": 56854345
+    },
+    "wangchuk_dataset2.csv": {
+      "sha256": "fccce1a99282b3cd8a1fe08fa83350fe44f7afc4c8889a6d0a94ef9c4d7897e3",
+      "doi": "10.17632/3jddhy2f6s.1",
+      "bytes": 11234312
+    },
+    "hannousse_dataset_B_05_2020.csv": {
+      "sha256": "21093e2902e5441c86a6daf95e86e7c332046e477fdf109a579d7bd81e586d6c",
+      "doi": "10.17632/c2gw7fy2j4.3",
+      "bytes": 3661166
+    }
+  },
+  "source_sha256": {
+    "src/passive_html.py": "2c94d3f15f53307a586c8db28491168f217f2fdabfb4c74d900b6ad8965db03a",
+    "src/url_model_v2.py": "b2d3e2f2b893c01a48b5073a32649eba930d4a20e11bee64e896aa15d1e71336",
+    "src/evaluation.py": "e36df9c932a657a4231bc1446e13cfd9783be097e413f674c7dcb705259fed1b",
+    "src/raw_protocol.py": "2af54ac9ba3920f6fe9e61181b8a9debb37888d559a1bc7334a64b784dbd483f",
+    "src/features.py": "478306f57671ea421a1d75486541e22151521099d075e70a1f0aa08438a254e0",
+    "src/safe_dom_pickle.py": "4e72e23687425be536445d8af0035b1a1b365dc272dab0708025f20c6d694eb0",
+    "src/run_runtime.py": "ad97c5ef60fe49b0976550e2abe8a3df6a365284d033828c9f819deab3ea4528",
+    "src/experiment.py": "1725a69400e482bc70b961120e47d2e2f025513466d3351ea56f3aff28730b57",
+    "src/adaptive_page.py": "1a6d475849b61cef61d369f2963791748c8f0c95a7049fa2bb4afecbd13adf86",
+    "src/page_model.py": "150f0536b454e8f20c3cb6a38e547fe0fbcc2349e4626687a6c424543d1e2f84",
+    "scripts/run_cite_batch.py": "e505161e7970d19b1eaca7b116048e63917e0d32ef018998dcbddd7dee99f0fb",
+    "scripts/download_verified_inputs.py": "bb2e5b38a17c171940a4e5017620ca5f1646dacfc41c5b3ba0dd5f67fe656845",
+    "scripts/write_revision_manuscript.py": "54bfc825402f3420ed0fea0bd04a1a6edaf8c7159a36ef6720d4332ab6e2bd18",
+    "scripts/download_hannousse.py": "58d67644af6a0e5a505ba5b9855c44915a8a08cdd913566be42b9168f3eb869a",
+    "scripts/write_independent_report.py": "aa910bfa3861ed20a70a212ea3a1ab43e40bd58e084883cbf9838a5d75d8139e",
+    "scripts/download_dom_archives.py": "856d1b502c8670d7347a8457b08b6a61f3c70ca8a2dcae2940932858e7e6d48c",
+    "scripts/word_cite_ui.applescript": "cbf892988a60dceffe1516e113671e8f3f0089b9722cf50b88ec316e33a31667",
+    "scripts/predict_record.py": "f3805795e5aab6162b46f27de328665e84e8011856a8c9e280b688be79baa7a7",
+    "scripts/run_independent.py": "a4954d9ec964772272bffadbf4e5ca91a66721cecca67b77d4e9391c412edbf6",
+    "scripts/write_research_revision.py": "fb6d88b0e9ec08e63e19926670dfd77db2acbc912c20c229d496f5d44cefc5a6",
+    "scripts/word_select_citation.applescript": "cd5ed8e66a60c6935082e5fc3c0016ed0a16eee6d85abca68626698a3562e4ce",
+    "scripts/plot_revision.py": "a8a3af33abeeb6a611d73bca49dc8ebca1f6f717dd9fe349a491271ccd2fc2a7",
+    "scripts/verify_experiments.py": "36f64c0a046f9b767398833e53aaef4f7fb3821e190bce2d68f0d41bed0e6f4b",
+    "scripts/reproduce.py": "5ddf4c914bd806abd3ba860a3c2daef1133bdb04b659aa748a59784deee095a9",
+    "scripts/correct_threshold_study.py": "50686f6dc5e240b222605a2c90588198542b4e725abe666656cddf89aa6424ab",
+    "scripts/download_external.py": "6fab7ca59f2f3b16e12904c1b8846256d6169deba80ab61dd66b24f195b642fa",
+    "scripts/verify_redesign.py": "768862c35090cf8be499c24d796dda2e7815aa9608cb2345e13929222d38a1d2",
+    "scripts/mendeley_checkpoint.py": "db1af8e96c6bffff0017ab5456e71da0198059afea20579f3b2b4f0805d5f212",
+    "scripts/prepare_equations.py": "92a3bfc1da68f04e72faa8d12d0d35dd2eb7ba086f9b5cc0afb68ffdf536a519",
+    "scripts/patch_research_results.py": "f13019fa17a516d92cbf6e71666592b053e1541fd7090da785eb328ecc1d53bd",
+    "scripts/recover_official_archive_ranges.py": "dab41c570b1325100c3c3f84a2ca6e5061d278f315d72dbb4975329cd914a0ed",
+    "scripts/analyze_redesign.py": "9553fcab46551a5e9506127a2c972069b6ed580c58c5543647feb7037195bef3",
+    "scripts/verify_revision.py": "55f6e70e499b94dd563cd1d2a4d9ed58a7480a9c91aa816f622899a737cd0768",
+    "scripts/build_report.py": "7e56df9a8d30c894fb19992378621e6b1e26d57a82574a2fcd313fb3237fa170",
+    "scripts/analyze_independent.py": "9e60770b5702fa871ed8cbc05bf47ec88d1b2debd810a527b993fa776ec50dc0",
+    "scripts/run_revision.py": "bc6545917043ba3c6891fb420289e794e8c4a5e91c0c60d7b987bbfab1ff655c",
+    "scripts/rebuild_word_toc.applescript": "e87ce05dc084efb3a031e31110fca39980f8ab83701111518405896ab6ec4c71",
+    "scripts/prepare_redesign.py": "f90dbb8c878fec659c9b7792fda57b2174fb92ce79825d472e1a81f42f3cc2ae",
+    "scripts/download_data.py": "3c780bbcedf75025664aa069786689e658689b5375ed56f243baf23acfec8237",
+    "scripts/run_page_study.py": "9e45ff298248bc2cd0c05a669330c522651d6f3f0011dea04e711a54ce13e6c8",
+    "scripts/run_redesign_static.py": "76628981e419acdd6d61d4176417c99220bacd32dbc7fef644148d29dfabb7a2",
+    "scripts/finalize_mendeley_layout.py": "0e3d00292327128c4187fa0a6704e2e6dded77d4b067c44b2089bf2cabd352d8",
+    "scripts/finalize_research_layout.py": "99672cc84f32942f7580de5668861be18d7d813395092a7de3ebd0666249efd5",
+    "scripts/diagnose_external_failure.py": "ab06c2ee75df9d110fa4a04491136ca51d9f4844a95dabe8a4b3b35fd1fc6045",
+    "scripts/reproduce_independent.py": "d3b1aedee35f71ddb57b6b3055b3621b9560a977aa461b675dfc3afbd54cf621",
+    "scripts/build_revision_report.py": "964d5a2456411aa11c0cba03578c209858658a156754384dadb2e9cac093c194",
+    "scripts/mendeley_ui.applescript": "95159417a211247603bdf72cfd7b762bb22a271361797052789e6700a41dc836",
+    "scripts/update_toc.py": "5da4889677444b133f83da51f63fbc2dabbf51cf6eafa4ee1dad2012d97c82d2",
+    "scripts/evaluate_saved_adaptation.py": "c329c572194d6bd6f2a4d5756c84a68aa01eb4c8be46cf0bca5517a87253a5a7",
+    "scripts/compare_independent_reproduction.py": "c2965829c78c4302495ffb052fd5e1b3542d493b648768152ccbf5f936094984",
+    "scripts/verify_independent.py": "eabe3b1e072c615c8caa6252042c517521388705c3ea0dfc1b5403e46e03444a",
+    "scripts/plot_results.py": "669cb3d9ed90636365287d53aa61dc04b1ae510b3abd9d8277881bf3bce52a01",
+    "scripts/evaluate_redesign.py": "8107bd81fa05e88759934a13920b66756d12c9add76276421dcf6eab200ddbc3",
+    "scripts/write_manuscript.py": "a6927744d472a5759dec75175f0d0efdd5ec158003b5792ae3fc29ec14a5c287",
+    "scripts/activate_mendeley.applescript": "d2bb3b7cd9371822688a4c4c39ab3e35098789ebb3a98deb8448e99e33148082",
+    "scripts/prepare_independent.py": "45da8f735b1d47f1550fae23f1d34983f3dfa1e738b9cf0fb9f607c0ad24fedf",
+    "scripts/audit_research_document.py": "9254ee71d214125bb334edd31d674cf00aa990f2b7f2177c12473f92a429eae6",
+    "scripts/compare_reproduction.py": "ef25d5699c8309edc05dce98cd142fbdf14ed920732286ec3f00327ec1e53699",
+    "configs/page_protocol.json": "3317cecd701c6c89bc963e286d2757148477f6036bbbc584d48fbde1093d3332",
+    "configs/independent_protocol.json": "2e373cbb2023aba073d32dde5d861d8d60b68f3017c2b35bbd5426fec5dddfba",
+    "configs/revision_protocol.json": "72a7b7bea1f90bd558136bbd60d1af4954e407c606e75a006b5aa7314a1b39d3",
+    "configs/experiment.json": "22034a41089768cf3ca461d2896eeb0eaf3f93895ddba275f03f80ee9488d77b",
+    "configs/redesign_protocol.json": "97ced6f445193b1eef874a3d86b34cc486f510125c4c1b0827cfce800a4c61de",
+    "tests/test_reproduction_cli.py": "7b65ba518ca58673e10cbf286ed048abd6456a8ef9062cd4169ec741d7b2aa3c",
+    "tests/test_page_model.py": "459fbbd1c291ef254945f5d5c187e5823c5a188139cc6d479004bd56ebe81018",
+    "tests/README.md": "4e9f92966fbb271fb5be0738f4e10e02123b7db4be1de8f1e28e2781a5a38b90",
+    "tests/test_archive_ranges.py": "96be7f913c90a2d2cfa381e637485caf11be715aeb93fcd73b1673c23e3c7b50",
+    "tests/test_stream_protocol.py": "54e50914f41c851f4f70aafb5f34834111b40fba1c4c3f280f70a521b7a9606c",
+    "tests/test_raw_protocol.py": "1df2e2c03f5a42e275a930ce6beaea3c92aafc1f0c954726234369ec4b294d91",
+    "tests/test_safe_dom_pickle.py": "1ffa8014b9132cb4b2bb95bc6f678c16305d0e9b5ce70626a2aa1ad4bbee44a9",
+    "tests/test_passive_html.py": "1e705f0a6c73fec934396b1e07b979c2958dcbf1af8a41cda0aea40ab766c253",
+    "tests/test_url_model_v2.py": "7de26307c88dae0e51cf8301ba0d4ad5799a0df89639c4b7c3c83918ca093567",
+    "requirements.txt": "e6036a2ac7ebb45061bcb5d0794fd2fdbbcdb6d9a3ae5b714d5191d865ba8c36"
+  },
+  "result_sha256": {
+    "page_final_test_metrics.csv": "b2ee4eec18883e02a2fa41d0dd52150ae89738e4d5ee861aa92b0872e47de4dc",
+    "analyze_redesign.log": "a55614d055ee404fbb7bb21f5dfeaa185be0b0e8d31a849af8531d25e4270cac",
+    "prepare_redesign.log": "6d02c5b6a969d8bf4602b6f32b78977e0425f154819a39f5d08f3a2e09af0764",
+    "url_test_metrics.csv": "33ffb8a1750474a7abf0954d3f5be43d95ff2e89f63c85340317165c25d9971a",
+    "run_redesign_static.log": "15eef621e120462a67f05d089180f0902b2b992fca95ef7a11b604f80680ee51",
+    "verify_redesign.log": "3137da06d4f2ba7a1542208173915dfe86e947201dfbe03901aa5c354e3d30b3",
+    "evaluate_redesign.log": "0a9e6012d779da38833cadb6bb2d3fd102cb6d1f215c5c094489dc593a43eaf5",
+    "verification.json": "3137da06d4f2ba7a1542208173915dfe86e947201dfbe03901aa5c354e3d30b3",
+    "run_page_study.log": "3ad69ae486613f8e60782545012f4f2273ad33a3ff149577350a6a2bb0b14f09",
+    "page_replay_metrics.csv": "fcf42705d1d69f6aec9559d5837d9444ba58504f72d5902953987ebeda108636",
+    "analysis/summary.json": "a55614d055ee404fbb7bb21f5dfeaa185be0b0e8d31a849af8531d25e4270cac",
+    "analysis/local_explanations.json": "7bd3c8ba2a181a94311092a8a9170faf2fb7af6847c875901ffe0309028d3925",
+    "analysis/interventional_explanation_diagnostic.json": "ac0880c3103b987b8c2aaae7ee8748b29f551ed95aa3e0d0b325d5515843b41e",
+    "analysis/feature_group_ablations.csv": "a8b0eb9062d06bf2eb5b33322d82e4eb74dbe9e5bf4beca219e9691b9b702263",
+    "analysis/paired_policy_intervals.json": "903e5aea51e91400084a7ba1a40470e0ed3571f436597e1b53a39f7112668cb2",
+    "analysis/root_invariance.json": "8835ccc90732d10a3da504d22b0f254143196fb582b2133d69626780c66f302d",
+    "analysis/explanation_audit.json": "f8d62fe6b3abb232a1f2d067f9a97ce45833763954d3fe139361b51c4a4223a4",
+    "analysis/shap_global.csv": "6943560f5aca2203b035f0cdeacc66e6a9941e5124b524fb3a01a3a1db7f195e",
+    "analysis/figures/figure_4_4_replay.png": "d1c3478cff457c30359018586b075a1397fede8813cf2ed42bbedbfbfff8c45d",
+    "analysis/figures/figure_4_3_confusion.png": "98bd13e16e42725c81e40e924f93461cef0bfd0201d0d52868888fc734d2fa93",
+    "analysis/figures/figure_4_2_shap.png": "88138febcc11612c1e90e3703a7150c2d35ec7db9b3d09f6c3487b6f68b8a841",
+    "analysis/figures/figure_4_5_tradeoff.png": "3f98fe3b364e6c535055b0459cc9fd2f575db206e88b4e5e5e61620bab7b9cc9",
+    "analysis/figures/figure_4_1_page_pr.png": "dec9f70fb4a94bd3c88fe5bb8457ffdee35885bee3ad2ca562ceebd1a7a6f0f9"
+  },
+  "finished_at": "2026-10-07T16:14:08.393310+08:00"
+}

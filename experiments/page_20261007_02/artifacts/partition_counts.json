@@ -1,0 +1,26 @@
+{
+  "initial_train": {
+    "n": 1728,
+    "normal": 824,
+    "phishing": 904,
+    "domains": 1001
+  },
+  "calibration": {
+    "n": 555,
+    "normal": 319,
+    "phishing": 236,
+    "domains": 429
+  },
+  "replay": {
+    "n": 2283,
+    "normal": 1143,
+    "phishing": 1140,
+    "domains": 1453
+  },
+  "test": {
+    "n": 6849,
+    "normal": 3429,
+    "phishing": 3420,
+    "domains": 4377
+  }
+}

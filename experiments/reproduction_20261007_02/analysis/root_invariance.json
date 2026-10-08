@@ -1,0 +1,7 @@
+{
+  "actual_legitimate_rows": 200,
+  "max_score_difference": 0.0,
+  "old_baseline_root_slash_flips": 200,
+  "new_score_flips": 0,
+  "interpretation": "Representation invariance only, not proof of label accuracy."
+}

@@ -1,0 +1,7 @@
+{
+  "family": "hist_gradient_boosting",
+  "seed": 42,
+  "fit_seconds": 4.4250770839862525,
+  "training_n": 68246,
+  "sha256": "9359c0dd284b61baba61977be08c45b7e86cecd73913730acf2a8920c3f47450"
+}

@@ -1,0 +1,54 @@
+CALIBRATION random_forest 17 0.047021943573667714 0.7203389830508474
+CALIBRATION random_forest 42 0.047021943573667714 0.7415254237288136
+CALIBRATION random_forest 73 0.047021943573667714 0.7627118644067796
+CALIBRATION hist_gradient_boosting 17 0.047021943573667714 0.7796610169491526
+CALIBRATION hist_gradient_boosting 42 0.047021943573667714 0.7796610169491526
+CALIBRATION hist_gradient_boosting 73 0.047021943573667714 0.7796610169491526
+REPLAY path_profile fixed 0 17 FPR 0.035 R 0.8298 updates 0
+REPLAY path_profile fixed 0 42 FPR 0.035 R 0.8298 updates 0
+REPLAY path_profile fixed 0 73 FPR 0.035 R 0.8298 updates 0
+REPLAY path_profile threshold 0 17 FPR 0.0455 R 0.8544 updates 15
+REPLAY path_profile threshold 0 42 FPR 0.0464 R 0.85 updates 15
+REPLAY path_profile threshold 0 73 FPR 0.0446 R 0.8491 updates 15
+REPLAY path_profile periodic 0 17 FPR 0.0359 R 0.7412 updates 3
+REPLAY path_profile periodic 0 42 FPR 0.0499 R 0.7886 updates 3
+REPLAY path_profile periodic 0 73 FPR 0.0394 R 0.8088 updates 3
+REPLAY path_profile drift 0 17 FPR 0.035 R 0.8325 updates 1
+REPLAY path_profile drift 0 42 FPR 0.035 R 0.8298 updates 1
+REPLAY path_profile drift 0 73 FPR 0.035 R 0.8316 updates 1
+REPLAY path_profile fixed 2 17 FPR 0.035 R 0.8298 updates 0
+REPLAY path_profile fixed 2 42 FPR 0.035 R 0.8298 updates 0
+REPLAY path_profile fixed 2 73 FPR 0.035 R 0.8298 updates 0
+REPLAY path_profile threshold 2 17 FPR 0.0446 R 0.8482 updates 13
+REPLAY path_profile threshold 2 42 FPR 0.0464 R 0.8509 updates 13
+REPLAY path_profile threshold 2 73 FPR 0.0446 R 0.8518 updates 13
+REPLAY path_profile periodic 2 17 FPR 0.0472 R 0.8088 updates 3
+REPLAY path_profile periodic 2 42 FPR 0.0394 R 0.7588 updates 3
+REPLAY path_profile periodic 2 73 FPR 0.0324 R 0.7325 updates 3
+REPLAY path_profile drift 2 17 FPR 0.035 R 0.8298 updates 0
+REPLAY path_profile drift 2 42 FPR 0.035 R 0.8298 updates 0
+REPLAY path_profile drift 2 73 FPR 0.035 R 0.8298 updates 0
+REPLAY stationary fixed 0 17 FPR 0.035 R 0.8298 updates 0
+REPLAY stationary fixed 0 42 FPR 0.035 R 0.8298 updates 0
+REPLAY stationary fixed 0 73 FPR 0.035 R 0.8298 updates 0
+REPLAY stationary threshold 0 17 FPR 0.0437 R 0.8474 updates 15
+REPLAY stationary threshold 0 42 FPR 0.0472 R 0.8579 updates 15
+REPLAY stationary threshold 0 73 FPR 0.0446 R 0.8526 updates 15
+REPLAY stationary periodic 0 17 FPR 0.0455 R 0.8421 updates 3
+REPLAY stationary periodic 0 42 FPR 0.0385 R 0.8158 updates 3
+REPLAY stationary periodic 0 73 FPR 0.0437 R 0.8404 updates 3
+REPLAY stationary drift 0 17 FPR 0.035 R 0.8298 updates 0
+REPLAY stationary drift 0 42 FPR 0.035 R 0.8298 updates 0
+REPLAY stationary drift 0 73 FPR 0.035 R 0.8298 updates 0
+REPLAY stationary fixed 2 17 FPR 0.035 R 0.8298 updates 0
+REPLAY stationary fixed 2 42 FPR 0.035 R 0.8298 updates 0
+REPLAY stationary fixed 2 73 FPR 0.035 R 0.8298 updates 0
+REPLAY stationary threshold 2 17 FPR 0.0402 R 0.8447 updates 13
+REPLAY stationary threshold 2 42 FPR 0.0472 R 0.8535 updates 13
+REPLAY stationary threshold 2 73 FPR 0.0437 R 0.85 updates 13
+REPLAY stationary periodic 2 17 FPR 0.0402 R 0.8333 updates 3
+REPLAY stationary periodic 2 42 FPR 0.0297 R 0.7982 updates 3
+REPLAY stationary periodic 2 73 FPR 0.042 R 0.8544 updates 3
+REPLAY stationary drift 2 17 FPR 0.035 R 0.8298 updates 0
+REPLAY stationary drift 2 42 FPR 0.035 R 0.8298 updates 0
+REPLAY stationary drift 2 73 FPR 0.035 R 0.8298 updates 0

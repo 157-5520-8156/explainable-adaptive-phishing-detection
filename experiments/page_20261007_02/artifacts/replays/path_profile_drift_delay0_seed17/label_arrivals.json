@@ -1,0 +1,122 @@
+[
+  {
+    "prediction_batch": 0,
+    "arrival_batch": 0,
+    "scheduled_batch": 0,
+    "prediction_version": 0,
+    "current_version": 0,
+    "n": 160
+  },
+  {
+    "prediction_batch": 1,
+    "arrival_batch": 1,
+    "scheduled_batch": 1,
+    "prediction_version": 0,
+    "current_version": 0,
+    "n": 160
+  },
+  {
+    "prediction_batch": 2,
+    "arrival_batch": 2,
+    "scheduled_batch": 2,
+    "prediction_version": 0,
+    "current_version": 0,
+    "n": 160
+  },
+  {
+    "prediction_batch": 3,
+    "arrival_batch": 3,
+    "scheduled_batch": 3,
+    "prediction_version": 0,
+    "current_version": 0,
+    "n": 160
+  },
+  {
+    "prediction_batch": 4,
+    "arrival_batch": 4,
+    "scheduled_batch": 4,
+    "prediction_version": 0,
+    "current_version": 0,
+    "n": 160
+  },
+  {
+    "prediction_batch": 5,
+    "arrival_batch": 5,
+    "scheduled_batch": 5,
+    "prediction_version": 0,
+    "current_version": 0,
+    "n": 160
+  },
+  {
+    "prediction_batch": 6,
+    "arrival_batch": 6,
+    "scheduled_batch": 6,
+    "prediction_version": 0,
+    "current_version": 0,
+    "n": 160
+  },
+  {
+    "prediction_batch": 7,
+    "arrival_batch": 7,
+    "scheduled_batch": 7,
+    "prediction_version": 0,
+    "current_version": 0,
+    "n": 160
+  },
+  {
+    "prediction_batch": 8,
+    "arrival_batch": 8,
+    "scheduled_batch": 8,
+    "prediction_version": 0,
+    "current_version": 0,
+    "n": 160
+  },
+  {
+    "prediction_batch": 9,
+    "arrival_batch": 9,
+    "scheduled_batch": 9,
+    "prediction_version": 0,
+    "current_version": 0,
+    "n": 160
+  },
+  {
+    "prediction_batch": 10,
+    "arrival_batch": 10,
+    "scheduled_batch": 10,
+    "prediction_version": 0,
+    "current_version": 0,
+    "n": 160
+  },
+  {
+    "prediction_batch": 11,
+    "arrival_batch": 11,
+    "scheduled_batch": 11,
+    "prediction_version": 0,
+    "current_version": 0,
+    "n": 160
+  },
+  {
+    "prediction_batch": 12,
+    "arrival_batch": 12,
+    "scheduled_batch": 12,
+    "prediction_version": 0,
+    "current_version": 0,
+    "n": 160
+  },
+  {
+    "prediction_batch": 13,
+    "arrival_batch": 13,
+    "scheduled_batch": 13,
+    "prediction_version": 0,
+    "current_version": 0,
+    "n": 160
+  },
+  {
+    "prediction_batch": 14,
+    "arrival_batch": 14,
+    "scheduled_batch": 14,
+    "prediction_version": 1,
+    "current_version": 1,
+    "n": 43
+  }
+]

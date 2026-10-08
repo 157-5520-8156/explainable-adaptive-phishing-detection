@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-10-07T00:54:49.125727+08:00",
+  "status": "MODEL_EFFECTIVENESS_NOT_ACCEPTED",
+  "scope": "Failure diagnosis and post-hoc checkpoint evaluation; no existing model, label, threshold or thesis file was modified.",
+  "implementation_checks": {
+    "source": {
+      "rows": 235152,
+      "raw_label_mapping_exact": true,
+      "recomputed_feature_rows": 512,
+      "max_feature_error": 0.0
+    },
+    "external": {
+      "rows": 78202,
+      "raw_label_mapping_exact": true,
+      "recomputed_feature_rows": 512,
+      "max_feature_error": 0.0
+    }
+  },
+  "positive_class_and_feature_order_verified": true,
+  "reproduced_model_fpr": 0.9968867601778995,
+  "root_slash_normal_to_phishing_flips": 200,
+  "root_slash_probe_size": 200,
+  "root_slash_equivalence_source": "https://www.rfc-editor.org/rfc/rfc9110.html#section-4.2.3",
+  "hypothesis_assessment": {
+    "label_or_probability_column_reversal": "Not found; stored label vectors match raw-file mapping and model classes are [0,1]. Published labels are still adopted, not independently certified.",
+    "source_external_feature_pipeline_mismatch": "Not found in 512 recomputed rows per source; named feature order matches model.",
+    "collection_and_representation_shortcuts": "Strongly supported: 134850 source legitimate records have no nonempty paths; adding a root slash flips all 200 sampled source-test normal classifications. This does not establish a sole cause for every error.",
+    "threshold_failure": "Initial ranking is also poor; AP is below external class prevalence. Adapted models improve ranking, but fixed 0.5 decisions still have excessive FPR."
+  },
+  "post_adaptation_model_count": 24,
+  "post_adaptation_validation_boundary": "Same earlier inspected holdout, disjoint from all original replay training domains. Post-hoc diagnostic, not fresh confirmatory validation.",
+  "required_corrections": [
+    "Normalize HTTP(S) root-path representation and add invariance checks; root normalization alone will not supply missing legitimate page-path examples.",
+    "Train and validate using real legitimate URLs with representative page paths, preserving domain separation and dataset provenance.",
+    "Choose operating thresholds on validation data with explicit FPR constraints and report recall; never select them on the external test.",
+    "Evaluate the adapted system on held-out domains and inspect explanations before and after updates.",
+    "Keep failed baseline results and identify reused test sets; obtain new independent data before broad deployment claims."
+  ],
+  "thesis_model_quality_complete": false,
+  "files": {
+    "implementation_and_representation_audit.json": "70b22afaaf14a877f73d80ff5b6950f6922257c1e5f058a8324a80d82e4fb179",
+    "post_adaptation_scores.npz": "87f8d42e85861d4e33ed07b337f796f54fd21aaaba599281d56e801620257658",
+    "post_adaptation_protocol.json": "cf8724a10ea1ac4b1c27a86ae327452b1b9d805d76fd9ba400655cb3709d8435",
+    "reproduction.json": "bd9af804c097ce11d308daa543c82af78a7b08ee1ee40dd7f4d878411d6e0aaa",
+    "root_slash_probe.json": "a67286b795f8d985076ba65ca2162f20cabd133b7ca607033e3e62e7aa5fff3d",
+    "post_adaptation_holdout_index.csv": "75e93a4c65e63df82ef7aaf6495e912473e4ff7006d0b69e99420f0acee95e14",
+    "reproduction_n_1.json": "4c4fc2f3eb041bb9380c82952e7ed9c7442dbae0c727c302ed7c348818bfc54b",
+    "post_adaptation_external_means.csv": "b593fb804561846f55055a35081d6596b4ed9b7012e51c169b43cc494dbf30a4",
+    "post_adaptation_external_metrics.csv": "69508342f6e7814d3740d92571430d2092d5c9e00dad940fcfc5b90b552c9890"
+  },
+  "raw_source_hashes_reverified": true,
+  "post_adaptation_saved_scores_reverified": 24,
+  "thesis_sha256_unchanged": "6dfe84778c9dc967456f65b397b86974ba184e6a22d61997b6e2655f8d7bd399"
+}

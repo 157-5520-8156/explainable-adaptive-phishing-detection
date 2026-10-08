@@ -1,0 +1,10 @@
+{
+  "model": "rf_seed_17.joblib",
+  "model_hash_verified": true,
+  "seed": 17,
+  "threshold": 0.5031817281611769,
+  "sample_policy": "first 1 legitimate external-holdout canonical URLs in sorted order",
+  "normal_examples": 1,
+  "false_positives": 1,
+  "false_positive_rate": 1.0
+}

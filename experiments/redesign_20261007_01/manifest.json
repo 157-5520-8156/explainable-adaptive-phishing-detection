@@ -1,0 +1,30 @@
+{
+  "status": "interrupted_character_probability_shape_error",
+  "started_at": "2026-10-07T11:29:22.537424+08:00",
+  "source_sha256": {
+    "src/url_model_v2.py": "e26a4499bc0e8ba8fccdcf82b5e4eac5bda8b145a77e827fffba8eb5f839b33b",
+    "src/features.py": "478306f57671ea421a1d75486541e22151521099d075e70a1f0aa08438a254e0",
+    "scripts/prepare_redesign.py": "dba00f0da1336522f0707cd8d552654033bd94a3e4bc2d09381eacd3256dfc03",
+    "configs/redesign_protocol.json": "0b491c4a79a3fa005ea09b1365c7a9ff1372b234c48275c78d96785f89d38989",
+    "requirements.txt": "1ae77eaca314d29157e2ec76d5c266f17c1104819f5f01574be966ea7639f59e"
+  },
+  "raw_sha256": {
+    "PhiUSIIL_Phishing_URL_Dataset.csv": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6",
+    "wangchuk_dataset2.csv": "fccce1a99282b3cd8a1fe08fa83350fe44f7afc4c8889a6d0a94ef9c4d7897e3",
+    "hannousse_dataset_B_05_2020.csv": "21093e2902e5441c86a6daf95e86e7c332046e477fdf109a579d7bd81e586d6c"
+  },
+  "artifact_sha256": {
+    "artifacts/training_manifest.csv": "fd027a7d86efc9a86ed5e0ea90a7c74f1354fc5dea5a079801a2cfd8948a3c16",
+    "artifacts/data_quality_and_partitions.json": "04edfd5121dacd88f5d8f07dd88bf38958d8e5b0d41802bdc8e69679395d1bfa",
+    "artifacts/hannousse_adaptation.pkl": "8f43771df2a67ee2d01c459619637dcbccd3331de430563f6f48f13b52630ae2",
+    "artifacts/sealed_hannousse_eval.pkl": "4fee479236f449801de0416728eafdc7cce7cbed93f7236dffd4e5cca91b7af8",
+    "artifacts/feature_names.json": "f1d559537bbdb7181e51f42773eb9a802ba5dbe9455f544784e6d3fbf381919b",
+    "artifacts/development.pkl": "068afa53f40c424ae1d0cace60649237ab9bbad0047e2aa39e1dbf6adb774ca5",
+    "artifacts/new_source_partition_manifest.csv": "fd634896d2038e75b4729f5b0b3528175ac5de112762aeb49ea4fdf980157e27",
+    "artifacts/training.pkl": "004292c4e4b27480c2336d28db8f435e854967bf7b62c50fd3bc66a1add2fb12",
+    "artifacts/development_partition_manifest.csv": "faabb0b4ba577a74c22f5316e792ecd8f0ac4af3a6ed5c26f9ec5036bd77703a"
+  },
+  "static_runner_sha256": "ee701c3fa9f7690baaab66be6127a6477fcab34edc3d750cdd2b7ab175c796e3",
+  "failure": "Character candidate returned a two-column probability matrix to a one-dimensional calibration interface; no test scores computed.",
+  "superseded_by": "redesign_20261007_02"
+}

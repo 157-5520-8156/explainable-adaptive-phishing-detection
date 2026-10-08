@@ -1,0 +1,6 @@
+{
+  "status": "failed_during_raw_download",
+  "error": "Official UCI stream read timed out. No fitting or scoring stage ran.",
+  "fresh_raw_only_successful_run": "reproduction_20261007_05",
+  "source_of_run05_inputs": "Creator raw files freshly downloaded and hash-verified by interrupted run03; no features/models imported."
+}

@@ -1,0 +1,8 @@
+{
+  "family": "hist_gradient_7",
+  "scope": "selected mixed-source shared-page model, seed42",
+  "output_space": "log odds",
+  "sample_n": 200,
+  "maximum_additivity_error": 6.217248937900877e-15,
+  "human_or_causal_validation": false
+}

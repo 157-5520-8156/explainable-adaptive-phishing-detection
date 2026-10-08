@@ -1,0 +1,17 @@
+{
+  "scope": "Representation-sensitivity diagnostic on 200 archived source-test legitimate records; not a new phishing performance benchmark.",
+  "transform": "Append one root-path slash; input labels and fitted model untouched.",
+  "sample_seed": 71007,
+  "normal_n": 200,
+  "before_false_positive_n": 0,
+  "after_false_positive_n": 200,
+  "normal_to_phishing_flips": 200,
+  "mean_score_before": 0.023804699446544585,
+  "mean_score_after": 0.9990262495643871,
+  "example": {
+    "original_url": "https://www.twp.washington.nj.us",
+    "root_slash_url": "https://www.twp.washington.nj.us/",
+    "score_before": 0.01643653713994908,
+    "score_after": 1.0
+  }
+}

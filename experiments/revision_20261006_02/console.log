@@ -1,0 +1,68 @@
+Static Logistic Regression seed=17: F1=0.9927 AP=0.9974, fit=0.3s
+Static Decision Tree seed=17: F1=0.9960 AP=0.9968, fit=0.2s
+Static Random Forest seed=17: F1=0.9963 AP=0.9985, fit=2.6s
+Static Logistic Regression seed=42: F1=0.9927 AP=0.9974, fit=0.4s
+Static Decision Tree seed=42: F1=0.9960 AP=0.9968, fit=0.2s
+Static Random Forest seed=42: F1=0.9962 AP=0.9985, fit=3.2s
+Static Logistic Regression seed=73: F1=0.9927 AP=0.9974, fit=0.3s
+Static Decision Tree seed=73: F1=0.9960 AP=0.9968, fit=0.2s
+Static Random Forest seed=73: F1=0.9963 AP=0.9985, fit=2.9s
+Exploratory HTTPS bias ablation completed
+SHAP: 2.8s, max additivity error=1.49e-08
+External audit {"raw_rows": 149726, "raw_class_counts": {"0": 94919, "1": 54807}, "schema": "URL,Label; 0 legitimate, 1 phishing", "raw_sha256": "fccce1a99282b3cd8a1fe08fa83350fe44f7afc4c8889a6d0a94ef9c4d7897e3", "quality_excluded_by_class": {"0": 2, "1": 7}, "conflicting_keys_removed": 0, "duplicate_rows_removed": 20276, "source_domain_overlap_excluded_by_class": {"0": 20035, "1": 31204}, "partitions": {"adaptation": {"n": 37392, "groups": 9683, "phishing": 11846, "legitimate": 25546, "legitimate_groups": 442, "phishing_groups": 9248, "legitimate_nonempty_path_fraction": 0.9907617630940264, "phishing_nonempty_path_fraction": 0.840705723450954}, "external_holdout": {"n": 40810, "groups": 9683, "phishing": 11580, "legitimate": 29230, "legitimate_groups": 459, "phishing_groups": 9233, "legitimate_nonempty_path_fraction": 0.9859048922340061, "phishing_nonempty_path_fraction": 0.8405872193436961}}}
+External full_30_features 17 F1 0.43589989820807806 FPR 0.9968867601778995
+External host_only_7_features 17 F1 0.5532649877423669 FPR 0.4921655833048238
+External full_30_features 42 F1 0.43598111106845316 FPR 0.9975367772836127
+External host_only_7_features 42 F1 0.5533610050979191 FPR 0.4921313718782073
+External full_30_features 73 F1 0.4358093190239407 FPR 0.9975025658569963
+External host_only_7_features 73 F1 0.5533753274987457 FPR 0.49165241190557646
+Split sensitivity 481 0.996500699860028
+Split sensitivity 902 0.996173756470853
+Replay source_switch 17 0 fixed F1 0.773 phaseB 0.6592 fits 0 cutoffs 0
+Replay source_switch 17 0 periodic F1 0.9186 phaseB 0.8642 fits 7 cutoffs 0
+Replay source_switch 17 0 drift F1 0.8889 phaseB 0.8204 fits 1 cutoffs 0
+Replay source_switch 17 0 threshold F1 0.7731 phaseB 0.6595 fits 0 cutoffs 7
+Replay source_switch 17 2 fixed F1 0.773 phaseB 0.6592 fits 0 cutoffs 0
+Replay source_switch 17 2 periodic F1 0.8932 phaseB 0.8249 fits 6 cutoffs 0
+Replay source_switch 17 2 drift F1 0.8731 phaseB 0.7968 fits 1 cutoffs 0
+Replay source_switch 17 2 threshold F1 0.7723 phaseB 0.6583 fits 0 cutoffs 6
+Replay source_switch 42 0 fixed F1 0.7936 phaseB 0.6586 fits 0 cutoffs 0
+Replay source_switch 42 0 periodic F1 0.9344 phaseB 0.8778 fits 7 cutoffs 0
+Replay source_switch 42 0 drift F1 0.8998 phaseB 0.8195 fits 1 cutoffs 0
+Replay source_switch 42 0 threshold F1 0.795 phaseB 0.6611 fits 0 cutoffs 7
+Replay source_switch 42 2 fixed F1 0.7936 phaseB 0.6586 fits 0 cutoffs 0
+Replay source_switch 42 2 periodic F1 0.9063 phaseB 0.8285 fits 6 cutoffs 0
+Replay source_switch 42 2 drift F1 0.8812 phaseB 0.7888 fits 1 cutoffs 0
+Replay source_switch 42 2 threshold F1 0.7947 phaseB 0.6605 fits 0 cutoffs 6
+Replay source_switch 73 0 fixed F1 0.8169 phaseB 0.6599 fits 0 cutoffs 0
+Replay source_switch 73 0 periodic F1 0.9276 phaseB 0.8474 fits 7 cutoffs 0
+Replay source_switch 73 0 drift F1 0.9041 phaseB 0.8045 fits 1 cutoffs 0
+Replay source_switch 73 0 threshold F1 0.8176 phaseB 0.6615 fits 0 cutoffs 7
+Replay source_switch 73 2 fixed F1 0.8169 phaseB 0.6599 fits 0 cutoffs 0
+Replay source_switch 73 2 periodic F1 0.9023 phaseB 0.7997 fits 6 cutoffs 0
+Replay source_switch 73 2 drift F1 0.8881 phaseB 0.7754 fits 1 cutoffs 0
+Replay source_switch 73 2 threshold F1 0.8171 phaseB 0.6605 fits 0 cutoffs 6
+Replay stationary_mixture 17 0 fixed F1 0.9384 phaseB 0.9398 fits 0 cutoffs 0
+Replay stationary_mixture 17 0 periodic F1 0.9482 phaseB 0.9499 fits 7 cutoffs 0
+Replay stationary_mixture 17 0 drift F1 0.9384 phaseB 0.9398 fits 0 cutoffs 0
+Replay stationary_mixture 17 0 threshold F1 0.9395 phaseB 0.9413 fits 0 cutoffs 7
+Replay stationary_mixture 17 2 fixed F1 0.9384 phaseB 0.9398 fits 0 cutoffs 0
+Replay stationary_mixture 17 2 periodic F1 0.9458 phaseB 0.9482 fits 6 cutoffs 0
+Replay stationary_mixture 17 2 drift F1 0.9384 phaseB 0.9398 fits 0 cutoffs 0
+Replay stationary_mixture 17 2 threshold F1 0.9394 phaseB 0.9413 fits 0 cutoffs 6
+Replay stationary_mixture 42 0 fixed F1 0.9391 phaseB 0.9396 fits 0 cutoffs 0
+Replay stationary_mixture 42 0 periodic F1 0.9503 phaseB 0.9522 fits 7 cutoffs 0
+Replay stationary_mixture 42 0 drift F1 0.9391 phaseB 0.9396 fits 0 cutoffs 0
+Replay stationary_mixture 42 0 threshold F1 0.9386 phaseB 0.9389 fits 0 cutoffs 7
+Replay stationary_mixture 42 2 fixed F1 0.9391 phaseB 0.9396 fits 0 cutoffs 0
+Replay stationary_mixture 42 2 periodic F1 0.95 phaseB 0.9527 fits 6 cutoffs 0
+Replay stationary_mixture 42 2 drift F1 0.9391 phaseB 0.9396 fits 0 cutoffs 0
+Replay stationary_mixture 42 2 threshold F1 0.9381 phaseB 0.9387 fits 0 cutoffs 6
+Replay stationary_mixture 73 0 fixed F1 0.9457 phaseB 0.9433 fits 0 cutoffs 0
+Replay stationary_mixture 73 0 periodic F1 0.9562 phaseB 0.9577 fits 7 cutoffs 0
+Replay stationary_mixture 73 0 drift F1 0.9457 phaseB 0.9433 fits 0 cutoffs 0
+Replay stationary_mixture 73 0 threshold F1 0.946 phaseB 0.9439 fits 0 cutoffs 7
+Replay stationary_mixture 73 2 fixed F1 0.9457 phaseB 0.9433 fits 0 cutoffs 0
+Replay stationary_mixture 73 2 periodic F1 0.9545 phaseB 0.9553 fits 6 cutoffs 0
+Replay stationary_mixture 73 2 drift F1 0.9457 phaseB 0.9433 fits 0 cutoffs 0
+Replay stationary_mixture 73 2 threshold F1 0.9459 phaseB 0.9435 fits 0 cutoffs 6

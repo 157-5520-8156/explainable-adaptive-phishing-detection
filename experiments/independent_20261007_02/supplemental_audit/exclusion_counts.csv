@@ -1,0 +1,13 @@
+source,exclusion_reason,y,rows,domains
+CompPhish,content_hash_mixed_label_cluster,0,38,38
+CompPhish,content_hash_mixed_label_cluster,1,195,113
+CompPhish,content_hash_repeated_record,0,56,50
+CompPhish,content_hash_repeated_record,1,1976,1192
+CompPhish,extraction_failed,0,8,7
+CompPhish,extraction_failed,1,3,3
+CompPhish,normalized_repeated_record,0,33,33
+CompPhish,normalized_repeated_record,1,28,26
+CompPhish,source_domain_overlap,0,676,448
+CompPhish,source_domain_overlap,1,605,33
+Hannousse_DOM,content_hash_repeated_record,1,36,25
+Hannousse_DOM,extraction_failed,1,19,19

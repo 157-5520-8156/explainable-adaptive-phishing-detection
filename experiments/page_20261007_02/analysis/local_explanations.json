@@ -1,0 +1,170 @@
+[
+  {
+    "case": "true_phishing",
+    "url": "http://www.shadetreetechnology.com/V4/validation/ba4b8bddd7958ecb8772c836c2969531",
+    "published_y": 1,
+    "prediction": 1,
+    "score": 0.8024785461088862,
+    "threshold": 0.7146983903057679,
+    "base_log_odds": 0.27872888128687345,
+    "reconstructed_log_odds": 1.4018579150876764,
+    "top_contributions": [
+      {
+        "feature": "digit_ratio",
+        "value": 0.2727272727272727,
+        "shap_log_odds": 1.0252513248888637
+      },
+      {
+        "feature": "suspicious_token_count",
+        "value": 0.0,
+        "shap_log_odds": -0.5686210860214194
+      },
+      {
+        "feature": "letter_ratio",
+        "value": 0.6363636363636364,
+        "shap_log_odds": 0.4614395007804391
+      },
+      {
+        "feature": "nb_hyperlinks",
+        "value": 30.0,
+        "shap_log_odds": 0.40554640962004046
+      },
+      {
+        "feature": "entropy",
+        "value": 4.704281802010818,
+        "shap_log_odds": 0.35393470169798674
+      },
+      {
+        "feature": "path_entropy",
+        "value": 4.282792308894289,
+        "shap_log_odds": -0.3439322127056965
+      }
+    ]
+  },
+  {
+    "case": "false_negative",
+    "url": "http://shadetreetechnology.com/V4/validation/a111aedc8ae390eabcfa130e041a10a4",
+    "published_y": 1,
+    "prediction": 0,
+    "score": 0.4123552918143018,
+    "threshold": 0.7146983903057679,
+    "base_log_odds": 0.27872888128687345,
+    "reconstructed_log_odds": -0.3542371909895776,
+    "top_contributions": [
+      {
+        "feature": "suspicious_token_count",
+        "value": 0.0,
+        "shap_log_odds": -0.7138977216882165
+      },
+      {
+        "feature": "nb_hyperlinks",
+        "value": 30.0,
+        "shap_log_odds": 0.4890745903053561
+      },
+      {
+        "feature": "dots",
+        "value": 1.0,
+        "shap_log_odds": -0.38828261228190797
+      },
+      {
+        "feature": "safe_anchor",
+        "value": 100.0,
+        "shap_log_odds": 0.3833864464161253
+      },
+      {
+        "feature": "ratio_extHyperlinks",
+        "value": 0.033333333,
+        "shap_log_odds": -0.250309150523217
+      },
+      {
+        "feature": "entropy",
+        "value": 4.419864470453803,
+        "shap_log_odds": -0.24285988809791595
+      }
+    ]
+  },
+  {
+    "case": "false_positive",
+    "url": "https://www.astrologyonline.eu/Astro_MemoNew/Profilo.asp",
+    "published_y": 0,
+    "prediction": 1,
+    "score": 0.8032202506481265,
+    "threshold": 0.7146983903057679,
+    "base_log_odds": 0.27872888128687345,
+    "reconstructed_log_odds": 1.4065438813911229,
+    "top_contributions": [
+      {
+        "feature": "nb_hyperlinks",
+        "value": 15.0,
+        "shap_log_odds": 1.3925217454878942
+      },
+      {
+        "feature": "suffix_length",
+        "value": 2.0,
+        "shap_log_odds": 1.0304585447967975
+      },
+      {
+        "feature": "suspicious_token_count",
+        "value": 0.0,
+        "shap_log_odds": -0.500919737682641
+      },
+      {
+        "feature": "represented_host_length",
+        "value": 18.0,
+        "shap_log_odds": -0.44109832269533406
+      },
+      {
+        "feature": "path_letter_ratio",
+        "value": 0.8461538461538461,
+        "shap_log_odds": 0.3989309053538972
+      },
+      {
+        "feature": "hyphens",
+        "value": 0.0,
+        "shap_log_odds": 0.37516377687344055
+      }
+    ]
+  },
+  {
+    "case": "true_normal",
+    "url": "http://rgipt.ac.in",
+    "published_y": 0,
+    "prediction": 0,
+    "score": 0.0008897216746233963,
+    "threshold": 0.7146983903057679,
+    "base_log_odds": 0.27872888128687345,
+    "reconstructed_log_odds": -7.023711751577169,
+    "top_contributions": [
+      {
+        "feature": "nb_hyperlinks",
+        "value": 149.0,
+        "shap_log_odds": -1.593536861584398
+      },
+      {
+        "feature": "suspicious_token_count",
+        "value": 0.0,
+        "shap_log_odds": -0.7936211900922892
+      },
+      {
+        "feature": "represented_host_length",
+        "value": 11.0,
+        "shap_log_odds": -0.6519629895125468
+      },
+      {
+        "feature": "safe_anchor",
+        "value": 62.5,
+        "shap_log_odds": -0.6346387029196334
+      },
+      {
+        "feature": "dots",
+        "value": 2.0,
+        "shap_log_odds": -0.5758477027089054
+      },
+      {
+        "feature": "path_letter_ratio",
+        "value": 0.0,
+        "shap_log_odds": -0.4915992711603308
+      }
+    ]
+  }
+]

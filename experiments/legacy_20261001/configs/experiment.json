@@ -1,0 +1,12 @@
+{
+  "split_seed": 20261001,
+  "model_seeds": [17, 42, 73],
+  "group_folds": 5,
+  "random_forest": {"n_estimators": 100, "max_depth": 16, "min_samples_leaf": 2, "max_features": "sqrt", "class_weight": "balanced", "n_jobs": 4},
+  "decision_tree": {"max_depth": 10, "min_samples_leaf": 5, "class_weight": "balanced"},
+  "logistic_regression": {"C": 1.0, "max_iter": 2000, "class_weight": "balanced"},
+  "stream": {"seed": 410, "batch_size": 400, "warmup_size": 2000, "phase_size": 6000, "recent_window": 4000, "periodic_every": 4, "adwin_delta": 0.002, "cooldown_batches": 2, "label_delay_batches": [0, 2]},
+  "explanation": {"background_size": 80, "evaluation_size": 160, "stability_size": 60},
+  "bootstrap_replicates": 200,
+  "scope": "URL lexical features only; no live website access; constructed class-balanced URL-length distribution shift; fixed primary protocol with separately marked exploratory bias ablation"
+}

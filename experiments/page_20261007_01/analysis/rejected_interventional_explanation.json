@@ -1,0 +1,7 @@
+{
+  "status": "REJECTED",
+  "background_n": 100,
+  "example_reconstruction": 4.920196,
+  "example_model_log_odds": 5.463303,
+  "reason": "Numerical additivity failed; these attributions are not reported as valid."
+}

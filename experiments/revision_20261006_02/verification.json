@@ -1,0 +1,25 @@
+{
+  "hashes_verified": true,
+  "metric_rows_verified": {
+    "static": 9,
+    "external": 6,
+    "replay": 48,
+    "source_ablation": 9,
+    "split_sensitivity": 2
+  },
+  "max_manual_ap_difference": 2.220446049250313e-16,
+  "probability_reconstructions": 660,
+  "checks": [
+    "raw/source/artifact hashes",
+    "static/external/replay confusion counts and F1",
+    "independent AP with tied-score groups",
+    "domain-disjoint source and external holdout",
+    "identical replay records across policies",
+    "labels revealed only after original prediction",
+    "current-model-only ADWIN feedback",
+    "model versions follow recorded updates",
+    "sampled probability reconstruction from saved checkpoints",
+    "SHAP additivity"
+  ],
+  "limitations": "Verification checks execution and numerical consistency. Published ground-truth labels, real temporal chronology and deployment reliability are not independently established."
+}

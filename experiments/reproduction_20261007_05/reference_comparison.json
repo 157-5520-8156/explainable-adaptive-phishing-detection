@@ -1,0 +1,4 @@
+{
+  "status": "PRIMARY_RESULTS_REPRODUCED_FOREST_BOUNDARY_VARIATION_IDENTIFIED",
+  "details": "Parallel RF probability summation at machine epsilon split tied boundary scores; changed source-only RF seed17 and42 secondary-point counts. Domain partitions and primary HGB/page decisions unchanged. Original results remain preserved. Fixed inference order is verified in subsequent runs."
+}

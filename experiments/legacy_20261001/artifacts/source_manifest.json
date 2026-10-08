@@ -1,0 +1,12 @@
+{
+  "src/features.py": "478306f57671ea421a1d75486541e22151521099d075e70a1f0aa08438a254e0",
+  "src/experiment.py": "9f3ffc6e04dbcac95d15fce9b755055596efbf3a82d8cae41f056d75ed87d6c6",
+  "scripts/verify_experiments.py": "36f64c0a046f9b767398833e53aaef4f7fb3821e190bce2d68f0d41bed0e6f4b",
+  "scripts/build_report.py": "7e56df9a8d30c894fb19992378621e6b1e26d57a82574a2fcd313fb3237fa170",
+  "scripts/download_data.py": "3c780bbcedf75025664aa069786689e658689b5375ed56f243baf23acfec8237",
+  "scripts/update_toc.py": "349647c825cf41241f5344bdeb5d2a8f0a1405f6f31a3dc0ec6081063135d8e5",
+  "scripts/plot_results.py": "669cb3d9ed90636365287d53aa61dc04b1ae510b3abd9d8277881bf3bce52a01",
+  "scripts/write_manuscript.py": "a6927744d472a5759dec75175f0d0efdd5ec158003b5792ae3fc29ec14a5c287",
+  "configs/experiment.json": "22034a41089768cf3ca461d2896eeb0eaf3f93895ddba275f03f80ee9488d77b",
+  "requirements.txt": "1ae77eaca314d29157e2ec76d5c266f17c1104819f5f01574be966ea7639f59e"
+}

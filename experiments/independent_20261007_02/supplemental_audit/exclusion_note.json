@@ -1,0 +1,91 @@
+{
+  "status": "supplemental_reporting_only",
+  "models_partitions_and_predictions_unchanged": true,
+  "scope": "Exclusions by the originally frozen rules, regenerated from raw snapshots. Mixed-label shared content can represent valid phishing clones, not wrong labels.",
+  "counts": [
+    {
+      "source": "CompPhish",
+      "exclusion_reason": "content_hash_mixed_label_cluster",
+      "y": 0,
+      "rows": 38,
+      "domains": 38
+    },
+    {
+      "source": "CompPhish",
+      "exclusion_reason": "content_hash_mixed_label_cluster",
+      "y": 1,
+      "rows": 195,
+      "domains": 113
+    },
+    {
+      "source": "CompPhish",
+      "exclusion_reason": "content_hash_repeated_record",
+      "y": 0,
+      "rows": 56,
+      "domains": 50
+    },
+    {
+      "source": "CompPhish",
+      "exclusion_reason": "content_hash_repeated_record",
+      "y": 1,
+      "rows": 1976,
+      "domains": 1192
+    },
+    {
+      "source": "CompPhish",
+      "exclusion_reason": "extraction_failed",
+      "y": 0,
+      "rows": 8,
+      "domains": 7
+    },
+    {
+      "source": "CompPhish",
+      "exclusion_reason": "extraction_failed",
+      "y": 1,
+      "rows": 3,
+      "domains": 3
+    },
+    {
+      "source": "CompPhish",
+      "exclusion_reason": "normalized_repeated_record",
+      "y": 0,
+      "rows": 33,
+      "domains": 33
+    },
+    {
+      "source": "CompPhish",
+      "exclusion_reason": "normalized_repeated_record",
+      "y": 1,
+      "rows": 28,
+      "domains": 26
+    },
+    {
+      "source": "CompPhish",
+      "exclusion_reason": "source_domain_overlap",
+      "y": 0,
+      "rows": 676,
+      "domains": 448
+    },
+    {
+      "source": "CompPhish",
+      "exclusion_reason": "source_domain_overlap",
+      "y": 1,
+      "rows": 605,
+      "domains": 33
+    },
+    {
+      "source": "Hannousse_DOM",
+      "exclusion_reason": "content_hash_repeated_record",
+      "y": 1,
+      "rows": 36,
+      "domains": 25
+    },
+    {
+      "source": "Hannousse_DOM",
+      "exclusion_reason": "extraction_failed",
+      "y": 1,
+      "rows": 19,
+      "domains": 19
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "status": "COMPLETE_ARCHIVED_PAGE_RESEARCH_PROTOTYPE_WITH_MEASURED_LIMITS",
+  "primary_input_contract": "44 recomputed URL features plus 24 published archived webpage measurements",
+  "primary_evaluation": "6849 new-domain rows within Hannousse corpus",
+  "fixed_model": {
+    "n": 6849,
+    "normal_n": 3429,
+    "phishing_n": 3420,
+    "tn": 3215,
+    "fp": 214,
+    "fn": 608,
+    "tp": 2812,
+    "fpr": 0.06240886555847186,
+    "recall": 0.8222222222222222,
+    "precision": 0.929279576999339,
+    "f1": 0.8724790567793981,
+    "average_precision": 0.9527667147976857,
+    "roc_auc": 0.9527061066684404,
+    "domain_macro_fpr": 0.050761881291855646,
+    "domain_macro_recall": 0.7970565813331673
+  },
+  "calibration_fpr_budget": 0.05,
+  "fixed_test_fpr_budget_met": false,
+  "universal_adaptive_superiority_established": false,
+  "url_only_transfer_effectiveness_accepted": false,
+  "live_extraction_implemented": false,
+  "published_labels_independently_reverified": false,
+  "adaptive_realizations": 48,
+  "post_inspection_corrected_threshold_realizations": 12,
+  "unaffected_realizations_reused": 36,
+  "verification": {
+    "status": "PASS",
+    "replay_realizations": 48,
+    "verified_prediction_files": 96,
+    "domain_isolation_checks": [
+      "initial_train/calibration domains disjoint",
+      "initial_train/replay_pool domains disjoint",
+      "initial_train/sealed_test domains disjoint",
+      "calibration/replay_pool domains disjoint",
+      "calibration/sealed_test domains disjoint",
+      "replay_pool/sealed_test domains disjoint"
+    ],
+    "label_arrival_and_update_timing_verified": true,
+    "confusion_matrices_recomputed": true,
+    "frozen_artifact_hashes_verified": true,
+    "limitation": "This verifies implementation and calculations, not dataset labels or universal generalization."
+  },
+  "original_failure_evidence_preserved": true,
+  "target_interpretation": "An implemented and verified study; no deployment certification or consistent <=5% false alarm claim."
+}

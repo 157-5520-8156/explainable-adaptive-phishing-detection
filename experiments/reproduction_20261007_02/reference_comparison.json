@@ -1,0 +1,462 @@
+{
+  "status": "PASS",
+  "reference_read_only_after_reproduction_completed": true,
+  "measurements": [
+    {
+      "file": "page_final_test_metrics.csv",
+      "records": 48,
+      "max_metric_difference": 1.1102230246251565e-16
+    },
+    {
+      "file": "page_replay_metrics.csv",
+      "records": 48,
+      "max_metric_difference": 1.1102230246251565e-16
+    },
+    {
+      "file": "url_test_metrics.csv",
+      "records": 84,
+      "max_metric_difference": 9.8062790887532e-07
+    },
+    {
+      "file": "development_partition_manifest.csv",
+      "byte_identical_partition": true
+    },
+    {
+      "file": "new_source_partition_manifest.csv",
+      "byte_identical_partition": true
+    },
+    {
+      "file": "training_manifest.csv",
+      "byte_identical_partition": true
+    }
+  ],
+  "saved_score_comparisons": [
+    {
+      "file": "test_scores_internal_hist_gradient_boosting_73.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_unseen_source_numeric_logistic_73.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_internal_char_logistic_17.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_internal_source_only_random_forest_17.npz",
+      "max_score_difference": 3.3306690738754696e-16
+    },
+    {
+      "file": "test_scores_unseen_source_random_forest_73.npz",
+      "max_score_difference": 2.220446049250313e-16
+    },
+    {
+      "file": "test_scores_unseen_source_char_logistic_42.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_unseen_source_random_forest_17.npz",
+      "max_score_difference": 2.220446049250313e-16
+    },
+    {
+      "file": "test_scores_internal_source_only_random_forest_73.npz",
+      "max_score_difference": 3.3306690738754696e-16
+    },
+    {
+      "file": "test_scores_unseen_source_source_only_random_forest_42.npz",
+      "max_score_difference": 2.220446049250313e-16
+    },
+    {
+      "file": "test_scores_internal_hist_gradient_boosting_17.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_internal_numeric_logistic_42.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_internal_char_logistic_73.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_internal_random_forest_42.npz",
+      "max_score_difference": 3.3306690738754696e-16
+    },
+    {
+      "file": "test_scores_unseen_source_hist_gradient_boosting_42.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_unseen_source_numeric_logistic_17.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_unseen_source_hist_gradient_boosting_73.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_internal_random_forest_73.npz",
+      "max_score_difference": 3.3306690738754696e-16
+    },
+    {
+      "file": "test_scores_internal_char_logistic_42.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_internal_numeric_logistic_73.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_unseen_source_source_only_random_forest_73.npz",
+      "max_score_difference": 2.220446049250313e-16
+    },
+    {
+      "file": "test_scores_internal_source_only_random_forest_42.npz",
+      "max_score_difference": 3.3306690738754696e-16
+    },
+    {
+      "file": "test_scores_unseen_source_char_logistic_17.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_unseen_source_char_logistic_73.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_unseen_source_random_forest_42.npz",
+      "max_score_difference": 2.220446049250313e-16
+    },
+    {
+      "file": "test_scores_unseen_source_source_only_random_forest_17.npz",
+      "max_score_difference": 2.220446049250313e-16
+    },
+    {
+      "file": "test_scores_internal_random_forest_17.npz",
+      "max_score_difference": 3.3306690738754696e-16
+    },
+    {
+      "file": "test_scores_unseen_source_hist_gradient_boosting_17.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_unseen_source_numeric_logistic_42.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_internal_hist_gradient_boosting_42.npz",
+      "max_score_difference": 0.0
+    },
+    {
+      "file": "test_scores_internal_numeric_logistic_17.npz",
+      "max_score_difference": 0.0
+    }
+  ],
+  "url_decision_comparisons": [
+    {
+      "file": "test_scores_internal_numeric_logistic_17.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_numeric_logistic_17.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_numeric_logistic_17.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_numeric_logistic_17.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_numeric_logistic_42.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_numeric_logistic_42.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_numeric_logistic_42.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_numeric_logistic_42.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_numeric_logistic_73.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_numeric_logistic_73.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_numeric_logistic_73.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_numeric_logistic_73.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_random_forest_17.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_random_forest_17.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_random_forest_17.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_random_forest_17.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_random_forest_42.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_random_forest_42.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_random_forest_42.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_random_forest_42.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_random_forest_73.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_random_forest_73.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_random_forest_73.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_random_forest_73.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_hist_gradient_boosting_17.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_hist_gradient_boosting_17.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_hist_gradient_boosting_17.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_hist_gradient_boosting_17.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_hist_gradient_boosting_42.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_hist_gradient_boosting_42.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_hist_gradient_boosting_42.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_hist_gradient_boosting_42.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_hist_gradient_boosting_73.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_hist_gradient_boosting_73.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_hist_gradient_boosting_73.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_hist_gradient_boosting_73.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_char_logistic_17.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_char_logistic_17.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_char_logistic_17.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_char_logistic_17.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_char_logistic_42.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_char_logistic_42.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_char_logistic_42.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_char_logistic_42.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_char_logistic_73.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_char_logistic_73.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_char_logistic_73.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_char_logistic_73.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_source_only_random_forest_17.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_source_only_random_forest_17.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_source_only_random_forest_17.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_source_only_random_forest_17.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_source_only_random_forest_42.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_source_only_random_forest_42.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_source_only_random_forest_42.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_source_only_random_forest_42.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_source_only_random_forest_73.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_internal_source_only_random_forest_73.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_source_only_random_forest_73.npz",
+      "budget": 0.01,
+      "changed_decisions": 0
+    },
+    {
+      "file": "test_scores_unseen_source_source_only_random_forest_73.npz",
+      "budget": 0.05,
+      "changed_decisions": 0
+    }
+  ],
+  "identical_page_prediction_vectors": 96,
+  "thresholded_predictions_and_counts_identical": true,
+  "ranking_metric_tolerance": 1e-05,
+  "ranking_tolerance_basis": "Observed machine-precision score variation in parallel forest aggregation changes tie ordering; score differences separately audited.",
+  "interpretation": "Deterministic reproduction on the same pinned environment and raw inputs; not independent evidence of generalization."
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "seed": 427,
+    "warmup": 2000,
+    "phase_A": 6000,
+    "phase_B": 6000,
+    "shift_index": 6000,
+    "class_conditional_length_quantiles": {
+      "0": {
+        "q40": 26.0,
+        "q60": 28.0
+      },
+      "1": {
+        "q40": 28.0,
+        "q60": 35.0
+      }
+    },
+    "warmup_phishing": 1000,
+    "phase_A_phishing": 3000,
+    "phase_B_phishing": 3000,
+    "domain_overlap_warmup_stream": 0,
+    "stream_repeated_domains": 0,
+    "interpretation": "Constructed class-balanced short-to-long URL distribution shift; not timestamped concept drift. A fixed conditional label relation is not established.",
+    "model_seed": 17
+  },
+  {
+    "seed": 452,
+    "warmup": 2000,
+    "phase_A": 6000,
+    "phase_B": 6000,
+    "shift_index": 6000,
+    "class_conditional_length_quantiles": {
+      "0": {
+        "q40": 26.0,
+        "q60": 28.0
+      },
+      "1": {
+        "q40": 28.0,
+        "q60": 35.0
+      }
+    },
+    "warmup_phishing": 1000,
+    "phase_A_phishing": 3000,
+    "phase_B_phishing": 3000,
+    "domain_overlap_warmup_stream": 0,
+    "stream_repeated_domains": 0,
+    "interpretation": "Constructed class-balanced short-to-long URL distribution shift; not timestamped concept drift. A fixed conditional label relation is not established.",
+    "model_seed": 42
+  },
+  {
+    "seed": 483,
+    "warmup": 2000,
+    "phase_A": 6000,
+    "phase_B": 6000,
+    "shift_index": 6000,
+    "class_conditional_length_quantiles": {
+      "0": {
+        "q40": 26.0,
+        "q60": 28.0
+      },
+      "1": {
+        "q40": 28.0,
+        "q60": 35.0
+      }
+    },
+    "warmup_phishing": 1000,
+    "phase_A_phishing": 3000,
+    "phase_B_phishing": 3000,
+    "domain_overlap_warmup_stream": 0,
+    "stream_repeated_domains": 0,
+    "interpretation": "Constructed class-balanced short-to-long URL distribution shift; not timestamped concept drift. A fixed conditional label relation is not established.",
+    "model_seed": 73
+  }
+]

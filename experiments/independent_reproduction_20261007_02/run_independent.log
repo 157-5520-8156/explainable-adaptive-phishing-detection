@@ -1,0 +1,130 @@
+CAL source_only url_only_44 numeric_logistic 17 R 0.6044
+CAL source_only url_only_44 numeric_logistic 42 R 0.6044
+CAL source_only url_only_44 numeric_logistic 73 R 0.6044
+CAL source_only url_only_44 random_forest 17 R 0.5055
+CAL source_only url_only_44 random_forest 42 R 0.5275
+CAL source_only url_only_44 random_forest 73 R 0.5275
+CAL source_only url_only_44 hist_gradient_7 17 R 0.6044
+CAL source_only url_only_44 hist_gradient_7 42 R 0.6044
+CAL source_only url_only_44 hist_gradient_7 73 R 0.6044
+CAL source_only url_only_44 hist_gradient_15 17 R 0.6154
+CAL source_only url_only_44 hist_gradient_15 42 R 0.6154
+CAL source_only url_only_44 hist_gradient_15 73 R 0.6154
+CAL source_only url_only_44 hist_gradient_31 17 R 0.5604
+CAL source_only url_only_44 hist_gradient_31 42 R 0.5604
+CAL source_only url_only_44 hist_gradient_31 73 R 0.5604
+CAL source_only shared_page_72 numeric_logistic 17 R 0.6593
+CAL source_only shared_page_72 numeric_logistic 42 R 0.6593
+CAL source_only shared_page_72 numeric_logistic 73 R 0.6593
+CAL source_only shared_page_72 random_forest 17 R 0.6154
+CAL source_only shared_page_72 random_forest 42 R 0.6374
+CAL source_only shared_page_72 random_forest 73 R 0.6484
+CAL source_only shared_page_72 hist_gradient_7 17 R 0.7253
+CAL source_only shared_page_72 hist_gradient_7 42 R 0.7253
+CAL source_only shared_page_72 hist_gradient_7 73 R 0.7253
+CAL source_only shared_page_72 hist_gradient_15 17 R 0.5934
+CAL source_only shared_page_72 hist_gradient_15 42 R 0.5934
+CAL source_only shared_page_72 hist_gradient_15 73 R 0.5934
+CAL source_only shared_page_72 hist_gradient_31 17 R 0.5934
+CAL source_only shared_page_72 hist_gradient_31 42 R 0.5934
+CAL source_only shared_page_72 hist_gradient_31 73 R 0.5934
+CAL mixed_source_development url_only_44 numeric_logistic 17 R 0.5044
+CAL mixed_source_development url_only_44 numeric_logistic 42 R 0.5044
+CAL mixed_source_development url_only_44 numeric_logistic 73 R 0.5044
+CAL mixed_source_development url_only_44 random_forest 17 R 0.4886
+CAL mixed_source_development url_only_44 random_forest 42 R 0.4861
+CAL mixed_source_development url_only_44 random_forest 73 R 0.5343
+CAL mixed_source_development url_only_44 hist_gradient_7 17 R 0.6173
+CAL mixed_source_development url_only_44 hist_gradient_7 42 R 0.6173
+CAL mixed_source_development url_only_44 hist_gradient_7 73 R 0.6173
+CAL mixed_source_development url_only_44 hist_gradient_15 17 R 0.627
+CAL mixed_source_development url_only_44 hist_gradient_15 42 R 0.627
+CAL mixed_source_development url_only_44 hist_gradient_15 73 R 0.627
+CAL mixed_source_development url_only_44 hist_gradient_31 17 R 0.5887
+CAL mixed_source_development url_only_44 hist_gradient_31 42 R 0.5887
+CAL mixed_source_development url_only_44 hist_gradient_31 73 R 0.5887
+CAL mixed_source_development shared_page_72 numeric_logistic 17 R 0.6995
+CAL mixed_source_development shared_page_72 numeric_logistic 42 R 0.6995
+CAL mixed_source_development shared_page_72 numeric_logistic 73 R 0.6995
+CAL mixed_source_development shared_page_72 random_forest 17 R 0.664
+CAL mixed_source_development shared_page_72 random_forest 42 R 0.7074
+CAL mixed_source_development shared_page_72 random_forest 73 R 0.6605
+CAL mixed_source_development shared_page_72 hist_gradient_7 17 R 0.7724
+CAL mixed_source_development shared_page_72 hist_gradient_7 42 R 0.7724
+CAL mixed_source_development shared_page_72 hist_gradient_7 73 R 0.7724
+CAL mixed_source_development shared_page_72 hist_gradient_15 17 R 0.7516
+CAL mixed_source_development shared_page_72 hist_gradient_15 42 R 0.7516
+CAL mixed_source_development shared_page_72 hist_gradient_15 73 R 0.7516
+CAL mixed_source_development shared_page_72 hist_gradient_31 17 R 0.7453
+CAL mixed_source_development shared_page_72 hist_gradient_31 42 R 0.7453
+CAL mixed_source_development shared_page_72 hist_gradient_31 73 R 0.7453
+[
+  {
+    "regime": "mixed_source_development",
+    "branch": "shared_page_72",
+    "family": "hist_gradient_7",
+    "test_n": 7047,
+    "mean": {
+      "fpr": 0.018152938506920808,
+      "recall": 0.7984848484848485,
+      "precision": 0.9634369287020109,
+      "f1": 0.8732394366197184,
+      "average_precision": 0.9732286703584573,
+      "roc_auc": 0.9826263829582413,
+      "domain_macro_fpr": 0.01688598716777736,
+      "domain_macro_recall": 0.8329734513809819
+    },
+    "all_seeds_meet_prespecified_targets": true
+  },
+  {
+    "regime": "mixed_source_development",
+    "branch": "url_only_44",
+    "family": "hist_gradient_15",
+    "test_n": 7047,
+    "mean": {
+      "fpr": 0.011799410029498525,
+      "recall": 0.671590909090909,
+      "precision": 0.9715068493150684,
+      "f1": 0.7941769316909294,
+      "average_precision": 0.9506256077744538,
+      "roc_auc": 0.960446405855698,
+      "domain_macro_fpr": 0.011326860841423947,
+      "domain_macro_recall": 0.724250693498892
+    },
+    "all_seeds_meet_prespecified_targets": false
+  },
+  {
+    "regime": "source_only",
+    "branch": "shared_page_72",
+    "family": "hist_gradient_7",
+    "test_n": 7047,
+    "mean": {
+      "fpr": 0.032221465849784435,
+      "recall": 0.6643939393939394,
+      "precision": 0.9251054852320676,
+      "f1": 0.7733686067019402,
+      "average_precision": 0.9208850247366268,
+      "roc_auc": 0.9455503383047631,
+      "domain_macro_fpr": 0.026002728820630778,
+      "domain_macro_recall": 0.7094813508350329
+    },
+    "all_seeds_meet_prespecified_targets": false
+  },
+  {
+    "regime": "source_only",
+    "branch": "url_only_44",
+    "family": "hist_gradient_15",
+    "test_n": 7047,
+    "mean": {
+      "fpr": 0.036305877013841616,
+      "recall": 0.4996212121212122,
+      "precision": 0.8918187964841109,
+      "f1": 0.6404467103665938,
+      "average_precision": 0.8763296130922452,
+      "roc_auc": 0.9170626448281315,
+      "domain_macro_fpr": 0.028540419246078728,
+      "domain_macro_recall": 0.5093578279260074
+    },
+    "all_seeds_meet_prespecified_targets": false
+  }
+]

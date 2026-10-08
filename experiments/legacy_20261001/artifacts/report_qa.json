@@ -1,0 +1,15 @@
+{
+  "checked": true,
+  "draft_date": "2026-10-01",
+  "report_pages": 29,
+  "prose_words": 5522,
+  "figures": 8,
+  "tables": 8,
+  "references": 13,
+  "native_equations": 4,
+  "template_sha256": "e449eedfdd999ef876f98e97d3a023270740b6691a0a1e8203a7ca6dc2d39af2",
+  "report_sha256": "588d5f1c398232ee5c5a55b6f018c6f1237513e0a6c44d61dea677ec236294b7",
+  "visual_review": "All 29 pages reviewed. Pages 1,2,4-12 are pixel-identical to previously inspected render; updated contents page and pages 13-29 reviewed in delivery render.",
+  "formatting_checks": "Arial 11 body, 1.5 spacing, written margins, 8 sections, no red body guidance, preserved original opaque parts, native equations, name glyphs, cached PAGEREF values",
+  "pending": "Exact final institutional template and length; independent dataset and natural temporal drift remain unvalidated."
+}

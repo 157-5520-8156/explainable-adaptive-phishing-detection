@@ -1,0 +1,7 @@
+{
+  "family": "random_forest",
+  "seed": 17,
+  "fit_seconds": 2.1648274580948055,
+  "training_n": 68246,
+  "sha256": "2488795147faf09cbfb009f9c5821b9a42f53517307d0d8cb9c8deaa857e1596"
+}

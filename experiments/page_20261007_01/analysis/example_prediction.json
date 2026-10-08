@@ -1,0 +1,353 @@
+{
+  "phishing_score": 0.4123552918143018,
+  "decision_threshold": 0.7146983903057679,
+  "prediction": "legitimate",
+  "decision_version": 0,
+  "model_family": "hist_gradient_boosting",
+  "input_contract": "archived URL plus creator-supplied webpage measurements",
+  "explanation_space": "log odds",
+  "base_log_odds": 0.27872888128687345,
+  "reconstructed_log_odds": -0.3542371909895776,
+  "feature_contributions": [
+    {
+      "feature": "suspicious_token_count",
+      "value": 0.0,
+      "contribution_log_odds": -0.7138977216882165
+    },
+    {
+      "feature": "nb_hyperlinks",
+      "value": 30.0,
+      "contribution_log_odds": 0.4890745903053561
+    },
+    {
+      "feature": "dots",
+      "value": 1.0,
+      "contribution_log_odds": -0.38828261228190797
+    },
+    {
+      "feature": "safe_anchor",
+      "value": 100.0,
+      "contribution_log_odds": 0.3833864464161253
+    },
+    {
+      "feature": "ratio_extHyperlinks",
+      "value": 0.033333333,
+      "contribution_log_odds": -0.250309150523217
+    },
+    {
+      "feature": "entropy",
+      "value": 4.419864470453803,
+      "contribution_log_odds": -0.24285988809791595
+    },
+    {
+      "feature": "external_favicon",
+      "value": 0.0,
+      "contribution_log_odds": -0.2059256624983218
+    },
+    {
+      "feature": "unique_char_ratio",
+      "value": 0.37662337662337664,
+      "contribution_log_odds": 0.19923834962401574
+    },
+    {
+      "feature": "hyphens",
+      "value": 0.0,
+      "contribution_log_odds": 0.19851430895272035
+    },
+    {
+      "feature": "ratio_extRedirection",
+      "value": 0.0,
+      "contribution_log_odds": 0.18622659822128437
+    },
+    {
+      "feature": "digit_ratio",
+      "value": 0.22077922077922077,
+      "contribution_log_odds": 0.18310198847810158
+    },
+    {
+      "feature": "special_ratio",
+      "value": 0.09090909090909091,
+      "contribution_log_odds": 0.17882637132123233
+    },
+    {
+      "feature": "suffix_length",
+      "value": 3.0,
+      "contribution_log_odds": -0.16810213869935986
+    },
+    {
+      "feature": "path_entropy",
+      "value": 3.9046127873875376,
+      "contribution_log_odds": -0.16292787400425415
+    },
+    {
+      "feature": "path_length",
+      "value": 47.0,
+      "contribution_log_odds": -0.1545605765089826
+    },
+    {
+      "feature": "ratio_intHyperlinks",
+      "value": 0.966666667,
+      "contribution_log_odds": -0.1521362431519301
+    },
+    {
+      "feature": "query_entropy",
+      "value": 0.0,
+      "contribution_log_odds": -0.1453785851951443
+    },
+    {
+      "feature": "underscores",
+      "value": 0.0,
+      "contribution_log_odds": 0.13524081665384274
+    },
+    {
+      "feature": "host_longest_label",
+      "value": 19.0,
+      "contribution_log_odds": 0.1292969017140002
+    },
+    {
+      "feature": "host_word_count",
+      "value": 2.0,
+      "contribution_log_odds": -0.1238687737837229
+    },
+    {
+      "feature": "longest_character_run",
+      "value": 3.0,
+      "contribution_log_odds": 0.10479474150557397
+    },
+    {
+      "feature": "path_word_count",
+      "value": 9.0,
+      "contribution_log_odds": 0.09897981370679022
+    },
+    {
+      "feature": "domain_in_title",
+      "value": 1.0,
+      "contribution_log_odds": 0.09625755360953996
+    },
+    {
+      "feature": "path_longest_word",
+      "value": 10.0,
+      "contribution_log_odds": -0.09449017832500288
+    },
+    {
+      "feature": "represented_host_length",
+      "value": 23.0,
+      "contribution_log_odds": 0.09066299225542351
+    },
+    {
+      "feature": "host_digit_ratio",
+      "value": 0.0,
+      "contribution_log_odds": -0.08379626355563799
+    },
+    {
+      "feature": "ratio_extMedia",
+      "value": 20.0,
+      "contribution_log_odds": -0.08315055038684938
+    },
+    {
+      "feature": "host_longest_word",
+      "value": 19.0,
+      "contribution_log_odds": -0.07432136513433216
+    },
+    {
+      "feature": "path_digit_ratio",
+      "value": 0.3617021276595745,
+      "contribution_log_odds": -0.05811395779707393
+    },
+    {
+      "feature": "domain_with_copyright",
+      "value": 0.0,
+      "contribution_log_odds": -0.05347550338358646
+    },
+    {
+      "feature": "links_in_tags",
+      "value": 100.0,
+      "contribution_log_odds": 0.052315172743614614
+    },
+    {
+      "feature": "letter_ratio",
+      "value": 0.6883116883116883,
+      "contribution_log_odds": 0.04477303447622195
+    },
+    {
+      "feature": "ratio_intMedia",
+      "value": 80.0,
+      "contribution_log_odds": -0.041065247428093074
+    },
+    {
+      "feature": "host_hyphens",
+      "value": 0.0,
+      "contribution_log_odds": -0.03764972645070783
+    },
+    {
+      "feature": "path_letter_ratio",
+      "value": 0.574468085106383,
+      "contribution_log_odds": -0.03629324036032759
+    },
+    {
+      "feature": "representation_length",
+      "value": 77.0,
+      "contribution_log_odds": 0.03253123735263715
+    },
+    {
+      "feature": "host_entropy",
+      "value": 3.708132064658601,
+      "contribution_log_odds": 0.024707517773298753
+    },
+    {
+      "feature": "path_depth",
+      "value": 3.0,
+      "contribution_log_odds": 0.018633141874404017
+    },
+    {
+      "feature": "subdomain_count",
+      "value": 0.0,
+      "contribution_log_odds": -0.017735028730357958
+    },
+    {
+      "feature": "path_extension_length",
+      "value": 0.0,
+      "contribution_log_odds": 0.017058201628996718
+    },
+    {
+      "feature": "equals",
+      "value": 0.0,
+      "contribution_log_odds": -0.009730188544429133
+    },
+    {
+      "feature": "ratio_extErrors",
+      "value": 0.0,
+      "contribution_log_odds": 0.00953777662881451
+    },
+    {
+      "feature": "query_length",
+      "value": 0.0,
+      "contribution_log_odds": -0.008467553964140073
+    },
+    {
+      "feature": "empty_title",
+      "value": 0.0,
+      "contribution_log_odds": 0.006837225109788689
+    },
+    {
+      "feature": "nb_extCSS",
+      "value": 0.0,
+      "contribution_log_odds": -0.005714332151772728
+    },
+    {
+      "feature": "login_form",
+      "value": 0.0,
+      "contribution_log_odds": 0.004497244975795351
+    },
+    {
+      "feature": "ampersands",
+      "value": 0.0,
+      "contribution_log_odds": -0.004395233200237035
+    },
+    {
+      "feature": "slashes",
+      "value": 5.0,
+      "contribution_log_odds": -0.0008105017585079524
+    },
+    {
+      "feature": "iframe",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "popup_window",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "submit_email",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "onmouseover",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "right_clic",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "fragment_length",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "sfh",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "ats",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "host_is_ip",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "ratio_intRedirection",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "ratio_nullHyperlinks",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "has_userinfo",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "has_punycode",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "questions",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "semicolon_count",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "colon_count",
+      "value": 1.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "explicit_port",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "percents",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "query_parameters",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    },
+    {
+      "feature": "ratio_intErrors",
+      "value": 0.0,
+      "contribution_log_odds": 0.0
+    }
+  ]
+}

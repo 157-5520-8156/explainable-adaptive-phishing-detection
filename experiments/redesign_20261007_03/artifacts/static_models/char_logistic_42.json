@@ -1,0 +1,7 @@
+{
+  "family": "char_logistic",
+  "seed": 42,
+  "fit_seconds": 4.689089540974237,
+  "training_n": 68246,
+  "sha256": "b71cab408f4565961b680d542e5a80e71a5f192f4c20603216942a0f985601d3"
+}

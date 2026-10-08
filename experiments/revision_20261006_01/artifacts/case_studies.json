@@ -1,0 +1,104 @@
+[
+  {
+    "type": "true_positive",
+    "url_sha256": "97deb52a7e6049a4f57c969822dcb434c1f1679cc8b3207c70816421a74c4b7b",
+    "truth": 1,
+    "probability": 1.0,
+    "threshold": 0.5031817281611769,
+    "top_features": [
+      {
+        "feature": "slashes",
+        "value": 3.0,
+        "contribution": 0.20080792844573808
+      },
+      {
+        "feature": "subdomain_count",
+        "value": 0.0,
+        "contribution": 0.14362992725946686
+      },
+      {
+        "feature": "path_length",
+        "value": 1.0,
+        "contribution": 0.1416212895290073
+      },
+      {
+        "feature": "suffix_length",
+        "value": 15.0,
+        "contribution": 0.0591208319575085
+      },
+      {
+        "feature": "has_https",
+        "value": 1.0,
+        "contribution": -0.04555338589921689
+      }
+    ]
+  },
+  {
+    "type": "false_positive",
+    "url_sha256": "867f78fa24ede22708a1ee729639927e86e610681171a12ab820a23d44fa8937",
+    "truth": 0,
+    "probability": 0.9146795820577996,
+    "threshold": 0.5031817281611769,
+    "top_features": [
+      {
+        "feature": "digit_ratio",
+        "value": 0.2727272727272727,
+        "contribution": 0.23940290157798386
+      },
+      {
+        "feature": "host_digit_ratio",
+        "value": 0.42857142857142855,
+        "contribution": 0.19744678393910223
+      },
+      {
+        "feature": "letter_ratio",
+        "value": 0.5,
+        "contribution": 0.1576254331075348
+      },
+      {
+        "feature": "has_https",
+        "value": 1.0,
+        "contribution": -0.09330239837713634
+      },
+      {
+        "feature": "slashes",
+        "value": 2.0,
+        "contribution": -0.04413943254673995
+      }
+    ]
+  },
+  {
+    "type": "false_negative",
+    "url_sha256": "b64bdcf1c3cf70e8f10ac426f0996a93567ae15fd6d20c4d7ea921a8243945c4",
+    "truth": 1,
+    "probability": 0.011041635790426406,
+    "threshold": 0.5031817281611769,
+    "top_features": [
+      {
+        "feature": "has_https",
+        "value": 1.0,
+        "contribution": -0.16768893083576586
+      },
+      {
+        "feature": "slashes",
+        "value": 2.0,
+        "contribution": -0.0856600440238708
+      },
+      {
+        "feature": "path_length",
+        "value": 0.0,
+        "contribution": -0.06350991504968988
+      },
+      {
+        "feature": "host_length",
+        "value": 12.0,
+        "contribution": -0.03752536518129226
+      },
+      {
+        "feature": "subdomain_count",
+        "value": 1.0,
+        "contribution": -0.025962777646460822
+      }
+    ]
+  }
+]

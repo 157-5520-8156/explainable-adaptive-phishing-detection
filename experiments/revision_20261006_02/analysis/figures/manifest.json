@@ -1,0 +1,20 @@
+{
+  "run_id": "revision_20261006_02",
+  "source_csv_sha256": {
+    "static_predictions.csv": "d22e56065dd67fe49f1ccc12e9562b4c114dd57dc41fe31bbbb7cab9e783f64d",
+    "external_predictions.csv": "8c91fd87899f3fe5669eb5730b7c1e0017765d1448764f86cb26c28bc69f5d14",
+    "replay_windows.csv": "d92ca03a7741df89fe40d2bd118548ab3b9cdb80642486ffa8679a21fa2a7d2c",
+    "replay_metrics.csv": "0c153ce87be481b6e13fba0eaf685cf7ee89b6d304a814391f2afef3455b139c"
+  },
+  "figures": [
+    "figure_1_1_structure.png",
+    "figure_3_1_architecture.png",
+    "figure_4_1_source_pr.png",
+    "figure_4_2_external_pr.png",
+    "figure_4_3_shap.png",
+    "figure_4_4_source_replay.png",
+    "figure_4_5_update_cost.png",
+    "figure_4_6_ablation.png"
+  ],
+  "figure_4_1": "Full-range empirical step PR and labelled zoom; threshold markers from source validation; prevalence baseline; full points exported."
+}

@@ -1,0 +1,10 @@
+{
+  "model": "initial selected seed 42",
+  "output_space": "raw log odds; expit gives phishing score",
+  "feature_perturbation": "tree_path_dependent",
+  "background": "training tree path counts; no explicit background sample",
+  "explained_n": 200,
+  "max_additivity_error": 8.43769498715119e-15,
+  "human_evaluation_performed": false,
+  "causal_interpretation_supported": false
+}

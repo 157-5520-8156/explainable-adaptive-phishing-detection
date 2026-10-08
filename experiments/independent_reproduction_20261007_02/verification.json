@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "verified_test_prediction_files": 120,
+  "model_specs": 60,
+  "test_records_per_file": 7047,
+  "max_saved_score_vs_checkpoint_error": 3.3306690738754696e-16,
+  "domain_and_exact_content_isolation": true,
+  "published_record_identities_and_labels_verified": true,
+  "retained_labels_checked_against_raw_creator_mapping": true,
+  "target_domains_exclude_complete_retained_source_csv": true,
+  "actual_creator_archive_hashes_verified": true,
+  "calibration_only_selection_verified": true,
+  "fixed_source_never_uses_target_labels": true,
+  "all_confusion_counts_and_ranking_metrics_recomputed": true,
+  "scope": "Implementation/lineage consistency on published historical labels, not independent relabelling or deployment certification."
+}

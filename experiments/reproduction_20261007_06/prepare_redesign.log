@@ -1,0 +1,113 @@
+Extracting normalized development features for 262154 URLs
+{
+  "source_audits": {
+    "Hannousse": {
+      "raw_n": 11430,
+      "quality_excluded_by_class": {
+        "0": 0,
+        "1": 4
+      },
+      "conflicting_normalized_keys": 0,
+      "conflicting_rows": 0,
+      "duplicates_removed": 11,
+      "retained_n": 11415
+    },
+    "PhiUSIIL": {
+      "raw_n": 235152,
+      "quality_excluded_by_class": {
+        "0": 0,
+        "1": 0
+      },
+      "conflicting_normalized_keys": 1,
+      "conflicting_rows": 2,
+      "duplicates_removed": 460,
+      "retained_n": 234690,
+      "new_source_domains_excluded_rows": 4775
+    },
+    "Wangchuk": {
+      "raw_n": 37392,
+      "quality_excluded_by_class": {
+        "0": 0,
+        "1": 0
+      },
+      "conflicting_normalized_keys": 0,
+      "conflicting_rows": 0,
+      "duplicates_removed": 259,
+      "retained_n": 37133,
+      "new_source_domains_excluded_rows": 4894
+    }
+  },
+  "cross_source_conflicting_keys": 0,
+  "new_source_domains_removed_from_all_development": true,
+  "test_scores_inspected": false,
+  "development": {
+    "test": {
+      "PhiUSIIL": {
+        "n": 45694,
+        "normal": 26594,
+        "phishing": 19100,
+        "groups": 39432
+      },
+      "Wangchuk": {
+        "n": 6736,
+        "normal": 4228,
+        "phishing": 2508,
+        "groups": 1881
+      }
+    },
+    "train": {
+      "PhiUSIIL": {
+        "n": 138210,
+        "normal": 80281,
+        "phishing": 57929,
+        "groups": 118090
+      },
+      "Wangchuk": {
+        "n": 19084,
+        "normal": 12187,
+        "phishing": 6897,
+        "groups": 5828
+      }
+    },
+    "validation": {
+      "PhiUSIIL": {
+        "n": 46011,
+        "normal": 26691,
+        "phishing": 19320,
+        "groups": 39372
+      },
+      "Wangchuk": {
+        "n": 6419,
+        "normal": 4131,
+        "phishing": 2288,
+        "groups": 1930
+      }
+    }
+  },
+  "new_source": {
+    "adaptation": {
+      "n": 4566,
+      "normal": 2286,
+      "phishing": 2280,
+      "groups": 2883
+    },
+    "sealed_evaluation": {
+      "n": 6849,
+      "normal": 3429,
+      "phishing": 3420,
+      "groups": 4377
+    }
+  },
+  "sampled_train": {
+    "PhiUSIIL": {
+      "n": 60000,
+      "normal": 30000,
+      "phishing": 30000
+    },
+    "Wangchuk": {
+      "n": 8246,
+      "normal": 1565,
+      "phishing": 6681
+    }
+  }
+}

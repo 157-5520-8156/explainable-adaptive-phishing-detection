@@ -1,0 +1,31 @@
+{
+  "status": "test_scored_after_selection_frozen",
+  "started_at": "2026-10-07T11:55:00.522132+08:00",
+  "source_sha256": {
+    "src/url_model_v2.py": "b2d3e2f2b893c01a48b5073a32649eba930d4a20e11bee64e896aa15d1e71336",
+    "src/features.py": "478306f57671ea421a1d75486541e22151521099d075e70a1f0aa08438a254e0",
+    "scripts/prepare_redesign.py": "bf7783939bb552e21e49a09e4c96ca503247536d8001a0e0c03e3edca409a061",
+    "configs/redesign_protocol.json": "47b939f4fca0a8b35b36d5592a0fb9f35dff1c16a7ddf4a383960408ee8f4ad7",
+    "requirements.txt": "1ae77eaca314d29157e2ec76d5c266f17c1104819f5f01574be966ea7639f59e"
+  },
+  "raw_sha256": {
+    "PhiUSIIL_Phishing_URL_Dataset.csv": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6",
+    "wangchuk_dataset2.csv": "fccce1a99282b3cd8a1fe08fa83350fe44f7afc4c8889a6d0a94ef9c4d7897e3",
+    "hannousse_dataset_B_05_2020.csv": "21093e2902e5441c86a6daf95e86e7c332046e477fdf109a579d7bd81e586d6c"
+  },
+  "artifact_sha256": {
+    "artifacts/training_manifest.csv": "fd027a7d86efc9a86ed5e0ea90a7c74f1354fc5dea5a079801a2cfd8948a3c16",
+    "artifacts/data_quality_and_partitions.json": "04edfd5121dacd88f5d8f07dd88bf38958d8e5b0d41802bdc8e69679395d1bfa",
+    "artifacts/hannousse_adaptation.pkl": "8f43771df2a67ee2d01c459619637dcbccd3331de430563f6f48f13b52630ae2",
+    "artifacts/sealed_hannousse_eval.pkl": "4fee479236f449801de0416728eafdc7cce7cbed93f7236dffd4e5cca91b7af8",
+    "artifacts/feature_names.json": "f6a2ed5db489c56a036286d7834521aac551caf5bd1f3bcb7ce1c90154755916",
+    "artifacts/development.pkl": "a227279796cb2bf6d3e8492f3fd4a938a4d17fc94a4cb1cc5c5daafada230d23",
+    "artifacts/new_source_partition_manifest.csv": "fd634896d2038e75b4729f5b0b3528175ac5de112762aeb49ea4fdf980157e27",
+    "artifacts/training.pkl": "5b214d285b468b4e31f32f779579fba752818959f2fdda0c31dc2a821716aaa9",
+    "artifacts/development_partition_manifest.csv": "faabb0b4ba577a74c22f5316e792ecd8f0ac4af3a6ed5c26f9ec5036bd77703a"
+  },
+  "static_runner_sha256": "5366b5c9e481fb5ad33c245114b9c572de175178c11cf859517f3f47c153b622",
+  "selection_sha256": "33c2074670417b247df8bac6ea7e266f9f7a416d0f1da227776828a86950024c",
+  "test_scored_at": "2026-10-07T12:04:10.846687+08:00",
+  "test_metrics_sha256": "96f2f624ebb585520ae3f21c89cfc514cf923936e8f7bc1af46b30a28d08b11d"
+}

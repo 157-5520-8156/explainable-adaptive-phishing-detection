@@ -1,0 +1,9 @@
+{
+  "status": "REJECTED",
+  "background_n": 100,
+  "checked_n": 200,
+  "max_additivity_error": 0.5431074846016006,
+  "example_reconstruction": 4.920195589535444,
+  "example_model_log_odds": 5.463303074137045,
+  "interpretation": "Measured in this execution; only verified path-dependent explanations enter the primary output."
+}

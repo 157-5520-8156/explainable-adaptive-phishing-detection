@@ -1,0 +1,116 @@
+[
+  {
+    "scenario": "source_switch",
+    "seed": 17,
+    "warmup": 2000,
+    "stream": 12000,
+    "boundary_index": 5200,
+    "warmup_groups": 2000,
+    "stream_groups": 8443,
+    "warmup_stream_shared_groups": 0,
+    "phishing_count": 6000,
+    "phase_A_rows": 5200,
+    "phase_B_rows": 6800,
+    "source_counts": {
+      "Wangchuk": 6800,
+      "PhiUSIIL": 5200
+    },
+    "external_holdout_domain_overlap": 0,
+    "interpretation": "Controlled replay of unchanged archived real URL records; order is experimental, not verified chronology; repeated target domains are retained and disclosed."
+  },
+  {
+    "scenario": "source_switch",
+    "seed": 42,
+    "warmup": 2000,
+    "stream": 12000,
+    "boundary_index": 6000,
+    "warmup_groups": 2000,
+    "stream_groups": 8929,
+    "warmup_stream_shared_groups": 0,
+    "phishing_count": 6000,
+    "phase_A_rows": 6000,
+    "phase_B_rows": 6000,
+    "source_counts": {
+      "PhiUSIIL": 6000,
+      "Wangchuk": 6000
+    },
+    "external_holdout_domain_overlap": 0,
+    "interpretation": "Controlled replay of unchanged archived real URL records; order is experimental, not verified chronology; repeated target domains are retained and disclosed."
+  },
+  {
+    "scenario": "source_switch",
+    "seed": 73,
+    "warmup": 2000,
+    "stream": 12000,
+    "boundary_index": 6800,
+    "warmup_groups": 2000,
+    "stream_groups": 9333,
+    "warmup_stream_shared_groups": 0,
+    "phishing_count": 6000,
+    "phase_A_rows": 6800,
+    "phase_B_rows": 5200,
+    "source_counts": {
+      "PhiUSIIL": 6800,
+      "Wangchuk": 5200
+    },
+    "external_holdout_domain_overlap": 0,
+    "interpretation": "Controlled replay of unchanged archived real URL records; order is experimental, not verified chronology; repeated target domains are retained and disclosed."
+  },
+  {
+    "scenario": "stationary_mixture",
+    "seed": 17,
+    "warmup": 2000,
+    "stream": 12000,
+    "boundary_index": null,
+    "warmup_groups": 1648,
+    "stream_groups": 9000,
+    "warmup_stream_shared_groups": 205,
+    "phishing_count": 6000,
+    "phase_A_rows": 5200,
+    "phase_B_rows": 6800,
+    "source_counts": {
+      "PhiUSIIL": 6177,
+      "Wangchuk": 5823
+    },
+    "external_holdout_domain_overlap": 0,
+    "interpretation": "Controlled replay of unchanged archived real URL records; order is experimental, not verified chronology; repeated target domains are retained and disclosed."
+  },
+  {
+    "scenario": "stationary_mixture",
+    "seed": 42,
+    "warmup": 2000,
+    "stream": 12000,
+    "boundary_index": null,
+    "warmup_groups": 1724,
+    "stream_groups": 9382,
+    "warmup_stream_shared_groups": 177,
+    "phishing_count": 6000,
+    "phase_A_rows": 6000,
+    "phase_B_rows": 6000,
+    "source_counts": {
+      "PhiUSIIL": 6825,
+      "Wangchuk": 5175
+    },
+    "external_holdout_domain_overlap": 0,
+    "interpretation": "Controlled replay of unchanged archived real URL records; order is experimental, not verified chronology; repeated target domains are retained and disclosed."
+  },
+  {
+    "scenario": "stationary_mixture",
+    "seed": 73,
+    "warmup": 2000,
+    "stream": 12000,
+    "boundary_index": null,
+    "warmup_groups": 1737,
+    "stream_groups": 9774,
+    "warmup_stream_shared_groups": 178,
+    "phishing_count": 6000,
+    "phase_A_rows": 6800,
+    "phase_B_rows": 5200,
+    "source_counts": {
+      "PhiUSIIL": 7558,
+      "Wangchuk": 4442
+    },
+    "external_holdout_domain_overlap": 0,
+    "interpretation": "Controlled replay of unchanged archived real URL records; order is experimental, not verified chronology; repeated target domains are retained and disclosed."
+  }
+]

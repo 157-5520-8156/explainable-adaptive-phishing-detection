@@ -1,0 +1,9 @@
+{
+  "family": "char_logistic",
+  "seed": 17,
+  "fit_seconds": 4.500578499981202,
+  "training_n": 68246,
+  "sha256": "5e90c4f1382482b409eed61ce8b7e919788ddf1436d7b8da3db279556f741ebc",
+  "reused_from": "redesign_20261007_01",
+  "reuse_basis": "Identical training, development and feature-name artifact hashes; estimator unaffected by calibration probability-shape fix."
+}

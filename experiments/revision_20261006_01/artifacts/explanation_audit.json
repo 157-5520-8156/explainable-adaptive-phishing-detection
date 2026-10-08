@@ -1,0 +1,24 @@
+{
+  "sample_size": 160,
+  "background_size": 80,
+  "seconds": 2.6287348329788074,
+  "seconds_per_explanation": 0.016429592706117546,
+  "max_additivity_error": 1.489213763417041e-08,
+  "model_output": "phishing probability",
+  "stability_sample_size": 60,
+  "stability": [
+    {
+      "reference_seed": 17,
+      "comparison_seed": 42,
+      "spearman_global": 0.9950439288127958,
+      "top5_overlap": 0.8
+    },
+    {
+      "reference_seed": 17,
+      "comparison_seed": 73,
+      "spearman_global": 0.9928283793575923,
+      "top5_overlap": 1.0
+    }
+  ],
+  "limitations": "fixed small sampled test set; interventional feature dependence assumption; not causal or a user-trust study; seed comparison on same split"
+}

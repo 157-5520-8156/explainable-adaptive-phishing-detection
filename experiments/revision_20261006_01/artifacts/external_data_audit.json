@@ -1,0 +1,41 @@
+{
+  "raw_rows": 149726,
+  "raw_class_counts": {
+    "0": 94919,
+    "1": 54807
+  },
+  "schema": "URL,Label; 0 legitimate, 1 phishing",
+  "raw_sha256": "fccce1a99282b3cd8a1fe08fa83350fe44f7afc4c8889a6d0a94ef9c4d7897e3",
+  "quality_excluded_by_class": {
+    "0": 2,
+    "1": 7
+  },
+  "conflicting_keys_removed": 0,
+  "duplicate_rows_removed": 20276,
+  "source_domain_overlap_excluded_by_class": {
+    "0": 20035,
+    "1": 31204
+  },
+  "partitions": {
+    "adaptation": {
+      "n": 37392,
+      "groups": 9683,
+      "phishing": 11846,
+      "legitimate": 25546,
+      "legitimate_groups": 442,
+      "phishing_groups": 9248,
+      "legitimate_nonempty_path_fraction": 0.9907617630940264,
+      "phishing_nonempty_path_fraction": 0.840705723450954
+    },
+    "external_holdout": {
+      "n": 40810,
+      "groups": 9683,
+      "phishing": 11580,
+      "legitimate": 29230,
+      "legitimate_groups": 459,
+      "phishing_groups": 9233,
+      "legitimate_nonempty_path_fraction": 0.9859048922340061,
+      "phishing_nonempty_path_fraction": 0.8405872193436961
+    }
+  }
+}
