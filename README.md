@@ -1,6 +1,6 @@
 # Explainable and Adaptive Machine Learning for Phishing Detection
 
-Research implementation and experiment evidence by Geoff. This private repository accompanies the undergraduate project proposal. Uploaded on 8 October 2026; experiments retain their actual run dates and status.
+Research implementation and experiment evidence by Geoff. This public repository accompanies the undergraduate project proposal. Repository visibility was changed to public on 8 October 2026. Uploaded on 8 October 2026; experiments retain their actual run dates and status.
 
 ## Contents
 
