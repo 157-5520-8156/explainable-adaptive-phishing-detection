@@ -1,9 +1,27 @@
 """Predict and explain an archived page record without visiting its URL."""
-import argparse,json,sys
+import argparse,json,sys,re
 from pathlib import Path
+from urllib.parse import urlsplit
 import joblib,pandas as pd,numpy as np,shap
 from scipy.special import expit
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'src'))
+from url_model_v2 import normalize_url
+
+def validate_record_input(record):
+    """Check input syntax without changing the archived feature representation."""
+    if not isinstance(record, dict):
+        raise ValueError('Record must be a JSON object')
+    url = record.get('URL')
+    if not isinstance(url, str) or not url.strip():
+        raise ValueError('URL must be a non-empty string')
+    if re.search(r'[\s<>\"]', url.strip()):
+        raise ValueError('URL must not contain internal whitespace, angle brackets or quotes')
+    normalized = normalize_url(url)
+    if not normalized:
+        raise ValueError('An HTTP(S) URL with a hostname is required')
+    # urlsplit defers invalid/out-of-range port errors until this property is read.
+    _ = urlsplit(normalized).port
+    return record
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
@@ -11,11 +29,15 @@ def main():
     parser.add_argument('--record',required=True,type=Path,help='JSON with URL and all 24 archived content measurements')
     parser.add_argument('--output',type=Path)
     args=parser.parse_args()
+    try:
+        record=validate_record_input(json.loads(args.record.read_text()))
+    except ValueError as error:
+        parser.error(str(error))
     # Only project-generated checkpoints should be loaded, as joblib is pickle based.
     state=joblib.load(args.checkpoint);bundle=state['bundle']
     if bundle.family != 'hist_gradient_boosting':
         parser.error('This interface supports selected histogram-gradient-boosting page checkpoints only')
-    record=json.loads(args.record.read_text());frame=pd.DataFrame([record]);X=bundle.matrix(frame)
+    frame=pd.DataFrame([record]);X=bundle.matrix(frame)
     score=float(bundle.estimator.predict_proba(X)[0,1]);threshold=float(state['threshold'])
     explained=shap.TreeExplainer(bundle.estimator,feature_perturbation='tree_path_dependent',model_output='raw')(X,check_additivity=True)
     values=np.asarray(explained.values)[0];base=float(np.asarray(explained.base_values)[0]);raw=base+float(values.sum())

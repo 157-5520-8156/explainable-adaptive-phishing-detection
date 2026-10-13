@@ -798,7 +798,7 @@
     "scripts/patch_research_results.py": "f13019fa17a516d92cbf6e71666592b053e1541fd7090da785eb328ecc1d53bd",
     "scripts/plot_results.py": "669cb3d9ed90636365287d53aa61dc04b1ae510b3abd9d8277881bf3bce52a01",
     "scripts/plot_revision.py": "a8a3af33abeeb6a611d73bca49dc8ebca1f6f717dd9fe349a491271ccd2fc2a7",
-    "scripts/predict_record.py": "f3805795e5aab6162b46f27de328665e84e8011856a8c9e280b688be79baa7a7",
+    "scripts/predict_record.py": "5607e5a574991eaa0dd93b7296d9d4312a3c2f6f90898ac9d6f9b59f6a0f6e7b",
     "scripts/prepare_equations.py": "92a3bfc1da68f04e72faa8d12d0d35dd2eb7ba086f9b5cc0afb68ffdf536a519",
     "scripts/prepare_independent.py": "45da8f735b1d47f1550fae23f1d34983f3dfa1e738b9cf0fb9f607c0ad24fedf",
     "scripts/prepare_redesign.py": "f90dbb8c878fec659c9b7792fda57b2174fb92ce79825d472e1a81f42f3cc2ae",
@@ -835,7 +835,9 @@
     "tests/test_reproduction_cli.py": "7b65ba518ca58673e10cbf286ed048abd6456a8ef9062cd4169ec741d7b2aa3c",
     "tests/test_safe_dom_pickle.py": "1ffa8014b9132cb4b2bb95bc6f678c16305d0e9b5ce70626a2aa1ad4bbee44a9",
     "tests/test_stream_protocol.py": "54e50914f41c851f4f70aafb5f34834111b40fba1c4c3f280f70a521b7a9606c",
-    "tests/test_url_model_v2.py": "7de26307c88dae0e51cf8301ba0d4ad5799a0df89639c4b7c3c83918ca093567"
+    "tests/test_url_model_v2.py": "7de26307c88dae0e51cf8301ba0d4ad5799a0df89639c4b7c3c83918ca093567",
+    "tests/test_prediction_input.py": "8591f4415d73074ac2a63016a0885eefbb8350c77e0acaa7bf7a08ddebc4ef25",
+    "README.md": "546e7f48866201c0e7ddaa01e40749984d5508d8e8fc0818ae979d2c06839917"
   },
   "exclusions": [
     "raw datasets",
@@ -845,5 +847,21 @@
     "local environment",
     "Office automation"
   ],
-  "credential_pattern_scan": "No matches in prepared files"
+  "credential_pattern_scan": "No matches in prepared files",
+  "amendments": [
+    {
+      "date": "2026-10-13",
+      "source_workspace_commit": "224a921",
+      "scope": "Offline prediction input validation and regression checks only; no training or experiment result changes",
+      "files": {
+        "scripts/predict_record.py": "5607e5a574991eaa0dd93b7296d9d4312a3c2f6f90898ac9d6f9b59f6a0f6e7b",
+        "tests/test_prediction_input.py": "8591f4415d73074ac2a63016a0885eefbb8350c77e0acaa7bf7a08ddebc4ef25",
+        "README.md": "546e7f48866201c0e7ddaa01e40749984d5508d8e8fc0818ae979d2c06839917"
+      },
+      "tests": {
+        "run": 22,
+        "passed": 22
+      }
+    }
+  ]
 }

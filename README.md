@@ -59,3 +59,7 @@ SHAP contributions describe model associations, not causal evidence about malici
 ## Version management
 
 `SOURCE_SNAPSHOT.json` records the source workspace commit and every included file hash. Historical manifests may contain local paths and earlier commits; they are provenance records, not required paths on another computer. The full local working repository and data archives remain separate.
+
+## Input validation update on 13 October 2026
+
+The offline prediction entry point now rejects non-object records, missing or non-string URL values, internal whitespace or forbidden URL characters, unsupported parsed schemes/missing hosts, and invalid ports before loading a checkpoint. It preserves the existing feature representation and requires the same 24 archived page measurements. The source regression suite passes 22 tests. Historical data, fitted models and reported experiment results are unchanged.
